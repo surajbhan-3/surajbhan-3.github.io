@@ -321,7 +321,7 @@ body{
   width: 940px;
   height: 400px;
   left: 333px;
-  top: 7060px;
+  top: 4360px;
   }
   
   .rside>.work{
@@ -405,6 +405,51 @@ body{
   }
   
   
+
+  #skills{
+    background-color: greenyellow;
+    position: absolute;
+    width: 940px;
+    height: auto;
+    left: 333px;
+    top: 2000px;
+  }
+
+  .stat{
+    border: 2px solid red;
+    background-color: greenyellow;
+    position: absolute;
+    width: 940px;
+    height: auto;
+    left: 333px;
+    top: 2650px;
+    display: flex;
+  }
+
+  .react-activity-calendar{
+
+
+    border: 2px solid red;
+    background-color: greenyellow;
+    position: absolute;
+    width: 940px;
+    height: auto;
+    left: 333px;
+    top: 5150px;
+
+  }
+
+  .contact{
+
+    border: 2px solid red;
+    background-color: greenyellow;
+    position: absolute;
+    width: 940px;
+    height: auto;
+    left: 333px;
+    top: 6300px;
+
+  }
   #about-title{
     font-size: 30px;
     text-align: center;
@@ -458,7 +503,7 @@ body{
   width: 940px;
   height: auto;
   left: 333px;
-  top: 6600px;
+  top: 4100px;
   margin-bottom: 100px;
     background-color: black;
     /* text-align: center; */
