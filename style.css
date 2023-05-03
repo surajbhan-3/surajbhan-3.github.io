@@ -1,0 +1,636 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    
+  }
+  
+  
+  
+  
+  .left-sidebar{
+  
+      border: 1px solid red;
+      width:305px;
+      height:100%;
+      background-color: DC5F00;
+      position: fixed;
+      left: 0;
+      top: 0;
+  
+  }
+  
+  .profile-picture{
+      border: 2px solid black;
+      border-radius: 50%;
+      position:absolute;
+      width: 200px;
+      height: 200px;
+      left :40px;
+      right:100px;
+      top:50px;
+      background-image: url("./assets/profile.png");
+  
+  }
+  
+  .middle-portion-intro{
+  /* border: 2px solid green; */
+  position: absolute;
+  width: 940px;
+  height: auto;
+  left: 333px;
+  top: 0px;
+  
+  background-color:DC5F00;
+  }
+  
+  
+  .nav-link.home{
+      border: 1px solid black;
+      background-color: #454545;
+      height: 1315px;
+      width: 100px;
+      position: fixed;
+      left: 1303px;
+      top: 0;
+      right: 0%;
+  
+  }
+  
+  
+  @import url(https://fonts.googleapis.com/css?family=Montserrat);
+  
+  
+  
+  
+  .nav-link.home{
+  
+      background-color:  DC5F00 ;
+  
+     color:black; 
+  }
+  
+  
+  nav{
+    /* border: 2px solid yellow; */
+    width: 80%;
+  }
+  
+   #menu-div{
+  
+      border: 1px solid red;
+       text-align: left;
+       height: 1315px;
+       width: 100px;
+       margin: auto;
+       position: fixed;
+  }
+  #menu-div >div>a{
+    text-decoration: none;
+    color: white;
+    
+  }
+  
+  #menu-div>div{
+      /* border: 2px solid chartreuse; */
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      margin: 20px;
+      padding: auto;
+      background-color: white;
+      
+  }
+  #menu-div>div img{
+      width: 60%;
+      height: 60%;
+  }
+  
+  #menu-div>.home-img,.about-img,.skills-img,.projects-img,.work-img,.contact-img,#resume-button-1{
+      margin-top: 200px;
+  }
+  
+  
+  
+  #menu-div>.home-img img{
+  
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  #menu-div>.about-img img{
+  
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  
+  #menu-div>.skills-img img{
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  #menu-div>.projects-img img{
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  #menu-div>.work-img img{
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  
+  
+  #menu-div>.contact-img img{
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  #menu-div>#resume-button-1 img{
+      position: relative;
+      left:10px;
+      right: 10px;
+      top: 10px;
+      bottom: 10px;
+  }
+  
+  
+  
+  
+  
+  .profile-card{
+    /* border: 3px solid chartreuse; */
+    width: auto;
+  }
+  .home-div{
+    height: auto;
+  
+    /* border: 2px solid slateblue; */
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  .home-div>.profile-card{
+      margin-right: -80px;
+  }
+  .home-div>div{
+    height: auto;
+    /* border: 1px solid burlywood; */
+    
+  
+  }
+  
+  .home-info{
+  
+      /* border: 1px solid brown; */
+      height: 100%;
+      margin-top: 0px;
+      
+      
+    }
+    .home-info>.p_name{
+      /* border: 2px solid greenyellow; */
+      height: 12%;
+      margin-top: 80px;
+      color: black;
+      font-size: 28px;
+      font-weight: 900;
+    }
+    #fsd{
+      color: white;
+      /* border: 1px solid  salmon; */
+      margin-top: 30px;
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .home-info>.fs{
+      /* border: 2px solid greenyellow; */
+      height: 32%;
+    }
+  
+    .home-info> #resume-button-2{
+      /* border: 2px solid greenyellow; */
+      height: 12%;
+      margin-top: 50px;
+    }
+  
+  
+  .home-details{
+    /* border: 2px solid red; */
+    width: 60%;
+  }
+  .home-div:hover .card0{
+      background: url("https://blogger.googleusercontent.com/img/a/AVvXsEgqYaBrEgxPKMj5WLmkm0regefjdr9DHBxqEhkGZLbUZXt-QfhCm35yBmv7OmE_QEfyJO1DilnPbLiyri6rlU23yeZiCcaPolQ5bggEa_C6vYr8RE9X8F-tPSuJo1GU7H8vYzYOUE5-JyrfZTmKIcDecu6XNR4jPibeCdYyISqev7sZslgvC825R6Xx=s16000") left center no-repeat;
+      background-size: 600px;
+  }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #about{
+  
+        border: 1px solid blue(230, 95, 17);
+        background-color:DC5F00;
+        position: absolute;
+      width: 940px;
+      height: auto;
+      left: 333px;
+      top: 550px;
+  }
+  
+  .about-content{
+    border: 5px solid green;
+    margin-top: -105px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 150%;
+    height: auto;
+    
+  }
+  
+  .about-content>div{
+    border: 4px solid red;
+  }
+  
+  
+  
+  .skills-sec{
+    border: 1px solid red;
+    background-color: DC5F00;
+    position: absolute;
+  width: 940px;
+  height: 400px;
+  left: 333px;
+  top: 1330px;
+  }
+  
+  
+  .skill-content{
+  
+       border: 2px solid green;
+       height: 400px;
+       margin-top: -70px;
+       display: flex;
+       justify-content: space-around;
+       background-color:black;
+  
+  }
+  
+  .skill-content>div{
+  
+     border: 1px solid  yellowgreen;
+     height: 300px;
+     width: 30%;
+     margin-top: 50px;
+     background-color: DC5F00;
+  }
+  
+  
+  .project{
+  
+    border: 1px solid rgb(230, 95, 17);
+    background-color: black;
+    position: absolute;
+  width: 940px;
+  height: 400px;
+  left: 333px;
+  top: 7060px;
+  }
+  
+  .rside>.work{
+  
+    /* border: 1px solid rgb(230, 95, 17); */
+    margin-top: 0px;
+    background-color: rgb(0, 255, 55);
+    height: 400px;
+    width: 80%;
+    margin-left: 20%;
+  }
+  .contacts{
+  
+    /* border: 1px solid rgb(230, 95, 17); */
+    margin-top: 0px;
+    background-color: rgb(0, 204, 255);
+    height: 100%;
+    width: 80%;
+    margin-left: 20%;
+  }
+  
+  
+  
+  .style-container {
+    display: flex;
+    /* border:1px solid green    ; */
+    height: 50px;
+    align-items:center;
+    margin-top: 0px;
+  
+    
+  }
+  
+  svg {
+      display: block;
+      font: 6.5em 'Montserrat';
+      width: 400px;
+      height: 150px;
+      margin: 0;
+      margin-top: 0;
+      margin-bottom: 50px;
+      margin-left: -45px;
+  }
+  
+  .text-copy {
+      fill: none;
+      stroke: yellow;
+      stroke-dasharray: 6% 29%;
+      stroke-width: 5px;
+      stroke-dashoffset: 0%;
+      animation: stroke-offset 5.5s infinite linear;
+  }
+  
+  .text-copy:nth-child(1){
+      stroke: orange;
+      animation-delay: -1;
+  }
+  
+  .text-copy:nth-child(2){
+      stroke: #840037;
+      animation-delay: -2s;
+  }
+  
+  .text-copy:nth-child(3){
+      stroke: #BD0034;
+      animation-delay: -3s;
+  }
+  
+  .text-copy:nth-child(4){
+      stroke: #c02450;
+      animation-delay: -4s;
+  }
+  
+  .text-copy:nth-child(5){
+      stroke: #ec7009;
+      animation-delay: -5s;
+  }
+  
+  @keyframes stroke-offset{
+      100% {stroke-dashoffset: -35%;}
+  }
+  
+  
+  #about-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+  }
+  
+  #about-heading,#contact-heading,#github-heading{
+    border: 1px solid brown;
+  
+   position: absolute;
+  width: 940px;
+  height: auto;
+  left: 333px;
+  top: 400px;
+  
+    background-color: black;
+    /* text-align: center; */
+  }
+  
+  #skills-heading{
+    border: 1px solid brown;
+  
+   position: absolute;
+  width: 940px;
+  height: auto;
+  left: 333px;
+  top: 1150px;
+    background-color:black;
+    /* text-align: center; */ 
+  }
+  
+  
+  #techstack-heading{
+    border: 1px solid brown;
+  
+   position: absolute;
+  width: 940px;
+  height: auto;
+  left: 333px;
+  top: 1810px;
+    background-color:black;
+    /* text-align: center; */ 
+  }
+  
+  
+  #project-heading{
+    border: 1px solid brown;
+  
+   position: absolute;
+  width: 940px;
+  height: auto;
+  left: 333px;
+  top: 6600px;
+  margin-bottom: 100px;
+    background-color: black;
+    /* text-align: center; */
+  }
+  
+  
+  
+  .cch{
+   width: 80%;
+    margin-left: 20%; 
+  }
+  
+  
+  #about-info,#skills-info,#project-info,#contact-info,#techstack-info,#github-info {
+      text-transform: uppercase;
+      letter-spacing: .5em;
+      display: inline-block;
+      border: 4px double rgba(255,255,255,.25);
+      border-width: 4px 0;
+      padding: 1.5em 0em;
+      position: relative;
+      top: 18%;
+      left: 50%;
+      width: 40em;
+      margin: 0 0 0 -20em;
+  }
+    
+    #about-info-span,#skills-info-span,#techstack-info-span,#project-info-span,#contact-info-span,#github-info-span{
+  
+        font: 700 2em/1 "Oswald", sans-serif;
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        display: block;
+        margin: 0 auto;
+      margin-left: 25%;
+        text-shadow: 0 0 80px rgba(255,255,255,.5);
+  
+  /* Clip Background Image */
+  
+        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+        -webkit-background-clip: text;
+        background-clip: text;
+  
+  /* Animate Background Image */
+  
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: aitf 80s linear infinite;
+  
+  /* Activate hardware acceleration for smoother animations */
+  
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-backface-visibility: hidden;
+  
+    }
+  
+  
+  /* Animate Background Image */
+  
+  @-webkit-keyframes aitf {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+  }
+  
+  
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  /* 2 */
+  .btn-2 {
+  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-2 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-2:before,
+  .btn-2:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-2:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-2:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-2:hover{
+    color:black;
+    background: transparent;
+    background-color: white;
+  }
+  .btn-2:hover:before {
+    height: 100%;
+  }
+  .btn-2:hover:after {
+    width: 100%;
+  }
+  .btn-2 span:before,
+  .btn-2 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgba(251,75,2,1);
+    transition: all 0.3s ease;
+  }
+  .btn-2 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-2 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-2 span:hover:before {
+    height: 100%;
+  }
+  .btn-2 span:hover:after {
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  #git-hub{
+  
+    border: 3px solid green;
+    width: 80%;
+    margin-left: 20%;
+    background-color: black;
+  
+  }
+  
+  .contacts{
+  
+    border: 2px solid red;
+  }
+  
+  
