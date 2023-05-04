@@ -10,7 +10,7 @@ body{
   .left-sidebar{
   
       border: 1px solid red;
-      width:205px;
+      width:15%;
       height:100%;
       background-color: DC5F00;
       position: fixed;
@@ -35,9 +35,9 @@ body{
   .middle-portion-intro{
   /* border: 2px solid green; */
   position: absolute;
-  width: 940px;
+  width:940px;
   height: auto;
-  left: 333px;
+  left: 20%;
   top: 0px;
   
   background-color:DC5F00;
@@ -50,7 +50,7 @@ body{
       height: 1315px;
       width: 100px;
       position: fixed;
-      left: 1250px;
+      left: 90%;
       top: 0;
       right: 0%;
   
@@ -257,9 +257,9 @@ body{
         border: 1px solid blue(230, 95, 17);
         background-color:DC5F00;
         position: absolute;
-      width: 940px;
+      width:940px;
       height: auto;
-      left: 333px;
+      left: 20%;
       top: 550px;
   }
   
@@ -285,9 +285,9 @@ body{
     border: 1px solid red;
     background-color: DC5F00;
     position: absolute;
-  width: 940px;
+  width:740px;
   height: 400px;
-  left: 333px;
+  left: 20%;
   top: 1330px;
   }
   
@@ -318,9 +318,9 @@ body{
     border: 1px solid rgb(230, 95, 17);
     background-color: black;
     position: absolute;
-  width: 940px;
+  width:740px;
   height: 400px;
-  left: 333px;
+  left: 20%;
   top: 4360px;
   }
   
@@ -401,9 +401,9 @@ body{
   #skills{
     background-color: greenyellow;
     position: absolute;
-    width: 940px;
+    width:740px;
     height: auto;
-    left: 333px;
+    left: 20%;
     top: 2000px;
   }
 
@@ -411,9 +411,9 @@ body{
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width: 940px;
+    width:740px;
     height: auto;
-    left: 333px;
+    left: 20%;
     top: 2650px;
     display: flex;
   }
@@ -424,9 +424,9 @@ body{
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width: 940px;
+    width:740px;
     height: auto;
-    left: 333px;
+    left: 20%;
     top: 5150px;
 
   }
@@ -436,9 +436,9 @@ body{
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width: 940px;
+    width:740px;
     height: auto;
-    left: 333px;
+    left: 20%;
     top: 6300px;
 
   }
@@ -453,9 +453,9 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width: 940px;
+  width:740px;
   height: auto;
-  left: 333px;
+  left: 20%;
   top: 400px;
   
     background-color: black;
@@ -466,9 +466,9 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width: 940px;
+  width:740px;
   height: auto;
-  left: 333px;
+  left: 20%;
   top: 1150px;
     background-color:black;
     /* text-align: center; */ 
@@ -479,9 +479,9 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width: 940px;
+  width:740px;
   height: auto;
-  left: 333px;
+  left: 20%;
   top: 1810px;
     background-color:black;
     /* text-align: center; */ 
@@ -492,9 +492,9 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width: 940px;
+  width:740px;
   height: auto;
-  left: 333px;
+  left: 20%;
   top: 4100px;
   margin-bottom: 100px;
     background-color: black;
