@@ -32,6 +32,19 @@ body{
   
   }
   
+
+.name{
+
+   border: 2px solid black;
+   position: absolute;
+   left: 0;
+   top: 270px;
+   height: 30px;
+   width: 100%;
+   color: blue;
+}
+
+
   .middle-portion-intro{
   /* border: 2px solid green; */
   position: absolute;
@@ -106,7 +119,7 @@ body{
   }
   
   #menu-div>.home-img,.about-img,.skills-img,.projects-img,.work-img,.contact-img,#resume-button-1{
-      margin-top:  200px;
+      margin-top:  50px;
   }
   
   
