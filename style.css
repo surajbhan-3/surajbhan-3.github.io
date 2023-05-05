@@ -270,7 +270,7 @@ body{
         border: 1px solid blue(230, 95, 17);
         background-color:DC5F00;
         position: absolute;
-      width:940px;
+      width:740px;
       height: auto;
       left: 20%;
       top: 550px;
@@ -470,6 +470,7 @@ body{
   height: auto;
   left: 20%;
   top: 400px;
+  z-index: -1;
   
     background-color: black;
     /* text-align: center; */
