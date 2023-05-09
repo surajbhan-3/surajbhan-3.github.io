@@ -303,18 +303,18 @@ body{
     border: 1px solid red;
     background-color: DC5F00;
     position: absolute;
-  width:740px;
-  height: 400px;
+  width:72%;
+
+  height: auto;
   left: 20%;
-  top: 1330px;
+  top: 1200px;
   }
   
   
   .skill-content{
   
-       border: 2px solid green;
+       border: 2px solid blue;
        height: 400px;
-       margin-top: 70px;
        display: flex;
        justify-content: space-around;
        background-color:black;
@@ -420,10 +420,10 @@ body{
     border: 12px solid blueviolet;
     background-color: greenyellow;
     position: absolute;
-    width:740px;
+    width:72%;
     height: auto;
     left: 20%;
-    top: 2000px;
+    top: 1900px;
   }
 
   .stat{
@@ -472,6 +472,14 @@ body{
   #about-heading{
     background-color: black;
   }
+
+  #skills-heading{
+    border: 1px solid brown;
+
+    background-color:black;
+
+  }
+
   #contact-heading,#github-heading{
     border: 1px solid brown;
    position: absolute;
@@ -485,27 +493,13 @@ body{
     /* text-align: center; */
   }
   
-  #skills-heading{
-    border: 1px solid brown;
-  
-   position: absolute;
-  width:72%;
-  height: auto;
-  left: 20%;
-  top: 1150px;
-    background-color:black;
-    /* text-align: center; */ 
-  }
+ 
   
   
   #techstack-heading{
-    border: 1px solid brown;
-  
-   position: absolute;
-  width:72%;
+
   height: auto;
-  left: 20%;
-  top: 1810px;
+ 
     background-color:black;
     /* text-align: center; */ 
   }
