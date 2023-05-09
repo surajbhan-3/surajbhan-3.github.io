@@ -314,7 +314,7 @@ body{
   
        border: 2px solid green;
        height: 400px;
-       margin-top: -70px;
+       margin-top: 70px;
        display: flex;
        justify-content: space-around;
        background-color:black;
@@ -333,10 +333,10 @@ body{
   
   .project{
   
-    border: 1px solid rgb(230, 95, 17);
+    border: 2px solid rgb(230, 95, 17);
     background-color: black;
     position: absolute;
-  width:740px;
+  width:72%;
   height: 400px;
   left: 20%;
   top: 4360px;
@@ -417,6 +417,7 @@ body{
   
 
   #skills{
+    border: 12px solid blueviolet;
     background-color: greenyellow;
     position: absolute;
     width:740px;
