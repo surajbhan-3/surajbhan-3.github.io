@@ -3,6 +3,12 @@ body{
     background-color: black;
     
   }
+
+  main{
+
+    width: 100%;
+
+  }
   
   
   
@@ -10,7 +16,7 @@ body{
   .left-sidebar{
   
       border: 1px solid red;
-      width:15%;
+      width:18%;
       height:100%;
       background-color: DC5F00;
       position: fixed;
@@ -46,24 +52,23 @@ body{
 
 
   .middle-portion-intro{
-  /* border: 2px solid green; */
+  /* border: 12px solid blueviolet; */
   position: absolute;
-  width:940px;
+  width:72%;
   height: auto;
   left: 20%;
   top: 0px;
-  
-  background-color:DC5F00;
+  background-color:green;
   }
   
   
   .nav-link.home{
       border: 1px solid black;
-      background-color: #454545;
+      background-color: green;
       height: 100%;
-      width: 100px;
+      width: 6%;
       position: fixed;
-      left: 90%;
+      left: 94%;
       top: 0;
       right: 0%;
   
@@ -75,12 +80,12 @@ body{
   
   
   
-  .nav-link.home{
+  /* .nav-link.home{
   
       background-color:  DC5F00 ;
   
      color:black; 
-  }
+  } */
   
   
   nav{
@@ -267,19 +272,19 @@ body{
   
   #about{
   
-        border: 1px solid blue(230, 95, 17);
-        background-color:DC5F00;
-        position: absolute;
-      width:740px;
+       border: 6px solid blue;
+       background-color:DC5F00;
+      position: absolute;
+      width:72%;
       height: auto;
       left: 20%;
-      top: 550px;
+      top: 590px;
   }
   
   .about-content{
-    border: 5px solid green;
+    border: 1px solid green;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -456,9 +461,9 @@ body{
 
   }
   #about-title{
-    font-size: 30px;
+    font-size: 10px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
     color: red;
   }
   
@@ -466,7 +471,7 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width:740px;
+  width:72%;
   height: auto;
   left: 20%;
   top: 400px;
@@ -480,7 +485,7 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width:740px;
+  width:72%;
   height: auto;
   left: 20%;
   top: 1150px;
@@ -493,7 +498,7 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width:740px;
+  width:72%;
   height: auto;
   left: 20%;
   top: 1810px;
@@ -506,7 +511,7 @@ body{
     border: 1px solid brown;
   
    position: absolute;
-  width:740px;
+  width:72%;
   height: auto;
   left: 20%;
   top: 4100px;
