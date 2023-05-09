@@ -468,9 +468,12 @@ body{
     color: red;
   }
   
-  #about-heading,#contact-heading,#github-heading{
+
+  #about-heading{
+    background-color: black;
+  }
+  #contact-heading,#github-heading{
     border: 1px solid brown;
-  
    position: absolute;
   width:72%;
   height: auto;
