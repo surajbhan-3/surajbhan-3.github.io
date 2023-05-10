@@ -333,14 +333,29 @@ body{
   
   .project{
   
-    border: 2px solid rgb(230, 95, 17);
+    border: 12px solid rgb(230, 95, 17);
     background-color: black;
     position: absolute;
   width:72%;
-  height: 400px;
+  height: 1500px;
   left: 20%;
-  top: 4360px;
+  top: 3360px;
   }
+
+  .carousel{
+    height: 70%;
+    padding: 10px;
+  }
+
+.carousel> div{
+  background-color: white;
+  height: 30%;
+  border: 2px solid red;
+  margin: 20px;
+  
+
+}
+
   
   .rside>.work{
   
@@ -430,12 +445,24 @@ body{
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width:740px;
-    height: auto;
+    width:72%;
+    height: 550px;
     left: 20%;
     top: 2650px;
-    display: flex;
   }
+
+  .s-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: white;
+    
+  }
+  .s-content> .card{
+     width: 30%;
+  }
+
+  
 
   .react-activity-calendar{
 
@@ -443,7 +470,7 @@ body{
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width:740px;
+    width:72%;
     height: auto;
     left: 20%;
     top: 5150px;
@@ -480,7 +507,13 @@ body{
 
   }
 
-  #contact-heading,#github-heading{
+  #git-heading{
+    border: 1px solid brown;
+
+    background-color:black;
+
+  }
+  #contact-heading{
     border: 1px solid brown;
    position: absolute;
   width:72%;
@@ -503,30 +536,59 @@ body{
     background-color:black;
     /* text-align: center; */ 
   }
+
+
+  #stat-heading{
+
+    height: auto;
+    margin-bottom: 20px;
+   
+      background-color:black
+    }
+
   
   
   #project-heading{
     border: 1px solid brown;
-  
-   position: absolute;
-  width:72%;
+
   height: auto;
-  left: 20%;
-  top: 4100px;
-  margin-bottom: 100px;
+
     background-color: black;
-    /* text-align: center; */
   }
   
+
   
+
+  .react-activity-calendar{
+
+  }
   
+
+   .regular{
+     
+     border: 1px solid aqua;
+     margin-top: 200px;
+     width: 100%;
+     background-color: #c02450;
+    
+   }
+   .regular .git-card{
+
+        border: 2px red;
+        padding: 10px;
+        width: 100%;
+   }
+  
+
+
+
   .cch{
    width: 80%;
     margin-left: 20%; 
   }
   
   
-  #about-info,#skills-info,#project-info,#contact-info,#techstack-info,#github-info {
+  #about-info,#skills-info,#project-info,#contact-info,#techstack-info,#git-info,#stat-info{
       text-transform: uppercase;
       letter-spacing: .5em;
       display: inline-block;
@@ -540,7 +602,7 @@ body{
       margin: 0 0 0 -20em;
   }
     
-    #about-info-span,#skills-info-span,#techstack-info-span,#project-info-span,#contact-info-span,#github-info-span{
+    #about-info-span,#skills-info-span,#techstack-info-span,#project-info-span,#contact-info-span,#git-info-span,#stat-info-span{
   
         font: 700 2em/1 "Oswald", sans-serif;
         letter-spacing: 0;
