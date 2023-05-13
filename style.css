@@ -7,8 +7,10 @@ body{
   main{
 
     width: 100%;
+    
 
   }
+
   
   
   
@@ -372,7 +374,6 @@ body{
   
   .style-container {
     display: flex;
-    /* border:1px solid green    ; */
     height: 50px;
     align-items:center;
     margin-top: 0px;
@@ -380,7 +381,7 @@ body{
     
   }
   
-  svg {
+ .style-container> svg {
       display: block;
       font: 6.5em 'Montserrat';
       width: 400px;
@@ -403,9 +404,9 @@ body{
   .text-copy:nth-child(1){
       stroke: orange;
       animation-delay: -1;
-  }
+  } 
   
-  .text-copy:nth-child(2){
+   .text-copy:nth-child(2){
       stroke: #840037;
       animation-delay: -2s;
   }
@@ -413,7 +414,7 @@ body{
   .text-copy:nth-child(3){
       stroke: #BD0034;
       animation-delay: -3s;
-  }
+  } 
   
   .text-copy:nth-child(4){
       stroke: #c02450;
@@ -467,31 +468,47 @@ body{
   .react-activity-calendar{
 
 
-    border: 2px solid red;
-    background-color: greenyellow;
+    border: 12px solid red;
+    background-color: wheat;
     position: absolute;
     width:72%;
-    height: auto;
+    height: 100%;
     left: 20%;
     top: 5150px;
 
   }
 
-  .calendar{
-     height: 50px;
-  }
+
+
+  /* .container-gitstat{
+    border: 10px solid rebeccapurple;
+    width: 100%;
+    margin: auto;
+    position:absolute;
+    width: 100%;
+   
+} */
+
+
+
+
+
+
 
   #contact{
 
     border: 2px solid red;
     background-color: greenyellow;
     position: absolute;
-    width:740px;
+    width:72%;
     height: auto;
     left: 20%;
-    top: 6300px;
+    top: 6700px;
 
   }
+
+
+
   #about-title{
     font-size: 10px;
     text-align: center;
@@ -568,9 +585,10 @@ body{
    .regular{
      
      border: 1px solid aqua;
-     margin-top: 200px;
+     margin-top: 10px;
      width: 100%;
      background-color: #c02450;
+     display: flex;
     
    }
    .regular .git-card{
@@ -578,6 +596,7 @@ body{
         border: 2px red;
         padding: 10px;
         width: 100%;
+        height: 400px;
    }
   
 
