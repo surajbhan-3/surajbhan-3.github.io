@@ -12,9 +12,10 @@
   align-items: center
   margin: 0 auto
 
-.border
-  height: 369px
-  width: 290px
+.aborder
+  border: 3px red 
+  height: 100%
+  width: 100%
   background: transparent
   border-radius: 10px
   transition: border 1s
@@ -24,26 +25,27 @@
     border: 1px solid white
 
 .card
-  height: 379px
-  width: 300px
+  height: 100%
+  width: 100%
   background: grey
   border-radius: 10px
   transition: background 0.8s
   overflow: hidden
   background: black
-  box-shadow: 0 70px 63px -60px #000000
+  // box-shadow: 0 70px 63px -60px #000000
   display: flex
   justify-content: center
   align-items: center
   position: relative
 
 .card0
-  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat
+  background: url("./assets/surajbhan.jpg") center center no-repeat
   background-size: 300px
-
+  background-size: cover
   &:hover
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat
+    background: url('./assets/surajbhan.jpg') left center no-repeat
     background-size: 600px
+    border: 2px solid black
 
     h2
       opacity: 1

@@ -19,8 +19,8 @@ body{
   
   .left-sidebar{
   
-      border: 1px solid red;
-      width:18%;
+      /* border: 1px solid red; */
+      width:18vw;
       height:100%;
       /* background-color: DC5F00; */
       background-color: bisque;
@@ -34,23 +34,25 @@ body{
       border: 2px solid black;
       border-radius: 50%;
       position:absolute;
-      width: 200px;
-      height: 200px;
-      left :0px;
+      width: 15vw;
+      height: 15vw;
+      left :20px;
       right:100px;
-      top:50px;
-      background-image: url("./assets/profile.png");
-  
+      top:10px;
   }
   
+  .profile-picture > img{
+     
+     border-radius: 50%;
+  }
 
 .profile-name{
 
    border: 2px solid black;
    position: absolute;
    left: 0;
-   top: 270px;
-   height: 30px;
+   top: 30vh;
+   height: 3vh;
    width: 100%;
    color: blue;
 }
@@ -59,21 +61,22 @@ body{
   .middle-portion-intro{
   /* border: 12px solid blueviolet; */
   position: absolute;
-  width:72%;
-  height: auto;
+  width:72vw;
+  height: 40vh;
   left: 20%;
   top: 0px;
-  background-color:green;
+  background-color: #FFE6C7;
+  border-radius: 0px 0px 12px 12px;
   }
   
   
   .nav-link.home{
-      border: 1px solid black;
-      background-color: green;
+      /* border: 12px solid green; */
+      background-color: #FFE6C7;
       height: 100%;
-      width: 6%;
+      width: 6vw;
       position: fixed;
-      left: 94%;
+      left: 95%;
       top: 0;
       right: 0%;
   
@@ -100,12 +103,16 @@ body{
   
    #menu-div{
   
-      border: 1px solid red;
+      /* border: 1px solid red; */
        text-align: left;
        height: 1315px;
-       width: 100px;
+       width: 6vw;
        margin: auto;
        position: fixed;
+       margin-top: 10vh;
+       margin-left: 0px;
+       margin-right: 20px;
+  
   }
   #menu-div >div>a{
     text-decoration: none;
@@ -118,7 +125,8 @@ body{
       border-radius: 50%;
       height: 50px;
       width: 50px;
-      margin: 20px;
+      margin-top: 60px;
+      margin-left: 25px;
       padding: auto;
       background-color: white;
       
@@ -199,26 +207,27 @@ body{
   
   
   .profile-card{
-    /* border: 3px solid chartreuse; */
-    width: auto;
+    /* border: 13px solid chartreuse; */
+    width: 30%;
+    height: 100%;
+
   }
   .home-div{
-    height: auto;
+    height: 100%;
   
-    /* border: 2px solid slateblue; */
+    border: 1px solid slateblue;
     /* background-color: black; */
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
+justify-content: space-between;
+ padding: 20px;
+   
   }
-  .home-div>.profile-card{
-      margin-right: -80px;
-  }
+  
+  
   .home-div>div{
     height: auto;
     /* border: 1px solid burlywood; */
-    
-  
+
   }
   
   .home-info{
@@ -257,11 +266,11 @@ body{
   
   
   .home-details{
-    /* border: 2px solid red; */
-    width: 60%;
+    /* border: 12px solid red; */
+    width: 70%;
   }
   .home-div:hover .card0{
-      background: url("https://blogger.googleusercontent.com/img/a/AVvXsEgqYaBrEgxPKMj5WLmkm0regefjdr9DHBxqEhkGZLbUZXt-QfhCm35yBmv7OmE_QEfyJO1DilnPbLiyri6rlU23yeZiCcaPolQ5bggEa_C6vYr8RE9X8F-tPSuJo1GU7H8vYzYOUE5-JyrfZTmKIcDecu6XNR4jPibeCdYyISqev7sZslgvC825R6Xx=s16000") left center no-repeat;
+      background: url("./assets/surajbhan.jpg") left center no-repeat;
       background-size: 600px;
   }
     
@@ -277,74 +286,85 @@ body{
   
   #about{
   
-       border: 6px solid blue;
-       background-color:DC5F00;
+       /* border: 6px solid blue; */
+       background-color:black;
       position: absolute;
-      width:72%;
+      width:72vw;
       height: auto;
       left: 20%;
-      top: 490px;
+      top: 60vh;
+      border-radius: 12px 12px 12px 12px;
   }
   
   .about-content{
-    border: 1px solid green;
+    /* border: 6px solid green; */
+    background-color:#FFE6C7;
     margin-top: 0px;
     margin-bottom: 0px;
     color: black;
     font-size: 18px;
     font-weight: bold;
     line-height: 150%;
-    height: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 12px 12px 12px 12px;
     
   }
   
   .about-content>div{
     border: 4px solid red;
+    width: 45%;
+  
   }
   
   
   
   .skills-sec{
-    border: 1px solid red;
-    background-color: DC5F00;
+    /* border: 1px solid red; */
+    background-color: black;
     position: absolute;
-  width:72%;
+  width:72vw;
 
   height: auto;
   left: 20%;
-  top: 1200px;
+  top: 130vh;
   }
   
   
   .skill-content{
   
-       border: 2px solid blue;
-       height: 400px;
+       /* border: 2px solid blue; */
+      
+       height: auto;
        display: flex;
-       justify-content: space-around;
-       background-color:black;
+       justify-content: space-between;
+       padding: 20px;
+       background-color:#FFE6C7;
+       border-radius: 12px;
   
   }
   
   .skill-content>div{
   
-     border: 1px solid  yellowgreen;
+     /* border: 1px solid  yellowgreen; */
      height: 300px;
      width: 30%;
-     margin-top: 50px;
-     background-color: DC5F00;
+     margin-top: 0px;
+     background-color: #FFA559;
   }
   
   
   .project{
   
-    border: 2px solid rgb(230, 95, 17);
+    /* border: 2px solid rgb(230, 95, 17); */
     background-color: black;
     position: absolute;
-  width:72%;
+  width:72vw;
   height: auto;
   left: 20%;
-  top: 3360px;
+  top: 290vh;
   }
 
   .carousel{
@@ -436,34 +456,58 @@ body{
   
 
   #skills{
-    border: 2px solid blueviolet;
-    background-color: greenyellow;
+    /* border: 2px solid blueviolet; */
     position: absolute;
-    width:72%;
+    width:72vw;
     height: auto;
     left: 20%;
-    top: 1900px;
+    top: 180vh;
   }
 
+.skills-content{
+  border: 2px solid green;
+  background-color:#FFE6C7;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: auto;
+  border-radius: 12px;
+
+}
+
+.skills-content> div{
+  width: 48%;
+  border: 2px solid red;
+  background-color: #FFA559;
+
+}
+
+
+
   .stat{
-    border: 2px solid red;
-    background-color: greenyellow;
+    /* border: 2px solid red; */
+    background-color: black;
     position: absolute;
-    width:72%;
-    height: 550px;
+    width:72vw;
+    height: 400px;
     left: 20%;
-    top: 2650px;
+    top: 230vh;
   }
 
   .s-content{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    color: white;
+    color:black;
+    background-color: #FFE6C7;
+    height: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    
     
   }
   .s-content> .card{
      width: 30%;
+     background-color: #FFA559;
   }
 
   
@@ -471,26 +515,27 @@ body{
   .react-activity-calendar{
 
 
-    border: 2px solid red;
-    background-color: wheat;
+    /* border: 2px solid red; */
+    background-color: black;
     position: absolute;
-    width:72%;
-    height: 100%;
+    width:72vw;
+    height: auto;
     left: 20%;
-    top: 4000px;
+    top: 350vh;
+    padding: 20px;
 
   }
 
 
 
-  /* .container-gitstat{
-    border: 10px solid rebeccapurple;
-    width: 100%;
-    margin: auto;
-    position:absolute;
-    width: 100%;
+  .container-gitstat{
+    
+    background-color: #FFE6C7;
+    border-radius: 12px;
+
    
-} */
+   
+}
 
 
 
@@ -500,13 +545,13 @@ body{
 
   #contact{
 
-    border: 2px solid red;
-    background-color: greenyellow;
+    /* border: 2px solid red; */
+    background-color: black;
     position: absolute;
-    width:72%;
+    width:72vw;
     height: auto;
     left: 20%;
-    top: 5100px;
+    top: 420vh;
 
   }
 
@@ -522,23 +567,22 @@ body{
 
   #about-heading{
     background-color: black;
+    /* border-radius: 12px; */
   }
 
   #skills-heading{
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 
     background-color:black;
 
   }
 
   #git-heading{
-    border: 1px solid brown;
-
+    
     background-color:black;
 
   }
   #contact-heading{
-    border: 1px solid brown;
  
   width:100%;
   height: auto;
@@ -573,8 +617,7 @@ body{
   
   
   #project-heading{
-    border: 1px solid brown;
-
+ 
   height: auto;
 
     background-color: black;
@@ -587,11 +630,11 @@ body{
 
    .regular{
      
-     border: 1px solid aqua;
-     margin-top: 10px;
+     /* border: 1px solid aqua; */
      width: 100%;
-     background-color: #c02450;
+     background-color: #FFE6C7;
      display: flex;
+     border-radius: 12px;
     
    }
    .regular .git-card{
@@ -599,7 +642,7 @@ body{
         border: 2px red;
         padding: 10px;
         width: 100%;
-        height: 400px;
+        height: 200px;
    }
   
 
@@ -615,7 +658,7 @@ body{
       text-transform: uppercase;
       letter-spacing: .5em;
       display: inline-block;
-      border: 4px double rgba(255,255,255,.25);
+      /* border: 4px double rgba(255,255,255,.25); */
       border-width: 4px 0;
       padding: 1.5em 0em;
       position: relative;
@@ -757,17 +800,22 @@ body{
   .contact-content{
 
      border: 1px solid saddlebrown;
+     background-color: #FFE6C7;
      display: flex;
      justify-content: space-between;
      height: 400px;
+     padding: 20px;
+     border: 12px;
+     border-radius: 12px;
   }
   .contact-content> div{
-    width: 100%;
+    width: 48%;
   }
 
   
   .column.left{
     border: 1px solid green;
+    width: 48%;
   
   
   }
@@ -777,20 +825,22 @@ body{
   }
   .column.left .icons{
     border: 1px solid goldenrod;
-    width: 50%;
-    margin-top: -45px;
+    width: auto;
+    margin-top: 0px;
     height: 50%;;
   }
 
-  .column.left .icons>div{
+  .column.left .icons> div{
 
     border: 2px solid black;
     width: 100%;
     font-size: 20px;
+    
   }
   .column.left .row{
-     border: 1px solid red;
+  
      display: flex;
+     width: 40%;
     
   }
   .column.left .row>div{
