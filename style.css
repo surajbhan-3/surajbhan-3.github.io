@@ -79,6 +79,7 @@ body{
       left: 93vw;
       top: 0;
       right: 0%;
+      position: fixed;
   
   }
   
@@ -102,16 +103,17 @@ body{
   }
   
    #menu-div{
-  
+        /* background-color: green; */
       border: 1px solid red;
        text-align: left;
-       height: 100vh;
-       width: 6vw;
+       height: auto;
+       width: 100vh;
        margin: auto;
        position: fixed;
        margin-top: 10vh;
+       padding-bottom: 10vh;
        margin-left: 0px;
-       margin-right: 20px;
+      
   
   }
   #menu-div >div>a{
@@ -125,8 +127,8 @@ body{
       border-radius: 50%;
       height: 3rem;
       width: 3rem;
-      margin-top: 60px;
-      margin-left: 25px;
+      margin-top: 30px;
+      margin-left: 1.5vw;
       padding: auto;
       background-color: white;
       
