@@ -4,11 +4,13 @@
 }
 
 .blog-slider {
-  width: 95%;
+  border: 2px solid red;
+  width: 100%;
   position: relative;
-  max-width: 800px;
+  max-width: 1640px;
   margin: auto;
-  background:  #FFE6C7;
+  margin-left: 90px;
+  background: #fff;
   box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
   padding: 25px;
   border-radius: 25px;
