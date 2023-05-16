@@ -564,7 +564,7 @@ justify-content: space-between;
 
 .skills-content{
   border: 2px solid green;
-  background-color:#FFE6C7;
+  background-color:black;
   display: flex;
   justify-content: space-between;
   padding: 20px;
@@ -576,7 +576,7 @@ justify-content: space-between;
 .skills-content> div{
   width: 48%;
   border: 2px solid red;
-  background-color: #FFA559;
+  background-color: #FFE6C7;
 
 }
 
@@ -725,6 +725,38 @@ justify-content: space-between;
   
 
   
+
+
+  .columnLeft{
+     padding: 10px;
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    border-radius: 12px;
+
+
+  }
+
+
+
+
+
+  .columnRight{
+    background-color: black;
+    padding: 10px;
+   display: grid;
+
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: auto;
+   grid-gap: 10px;
+ border-radius: 12px;
+
+ }
+ .skills-card-img{
+  border-radius: 12px;
+ }
 
  
 
