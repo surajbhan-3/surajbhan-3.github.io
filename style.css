@@ -58,16 +58,6 @@ body{
 }
 
 
-  .middle-portion-intro{
-  /* border: 12px solid blueviolet; */
-  position: absolute;
-  width:72vw;
-  height: 40vh;
-  left: 20%;
-  top: 0px;
-  background-color: #FFE6C7;
-  border-radius: 0px 0px 12px 12px;
-  }
   
   
   .nav-link.home{
@@ -76,7 +66,7 @@ body{
       height: 100%;
       width: 6vw;
       position: fixed;
-      left: 93vw;
+      left: 94vw;
       top: 0;
       right: 0%;
       position: fixed;
@@ -98,16 +88,16 @@ body{
   }
   
    #menu-div{
-        /* background-color: green; */
+        background-color: #FFE6C7;
       border: 1px solid red;
        text-align: left;
        height: auto;
-       width: 100vh;
-       margin: auto;
+       width: auto;
        position: fixed;
        margin-top: 10vh;
        padding-bottom: 10vh;
-       margin-left: 0px;
+       margin-left: 1vw;
+       border-radius: 15px;
       
   
   }
@@ -123,7 +113,7 @@ body{
       height: 3rem;
       width: 3rem;
       margin-top: 30px;
-      margin-left: 1.5vw;
+      /* margin-left: 1.5vw; */
       padding: auto;
       background-color: white;
       
@@ -209,6 +199,21 @@ body{
     height: 100%;
 
   }
+
+
+  .middle-portion-intro{
+    /* border: 12px solid blueviolet; */
+    position: absolute;
+    width:72vw;
+    height: 50vh;
+    left: 20%;
+    top: 0px;
+    background-color: #FFE6C7;
+    border-radius: 0px 0px 12px 12px;
+    }
+
+
+
   .home-div{
     height: 100%;
   
@@ -230,7 +235,7 @@ justify-content: space-between;
   .home-info{
   
       /* border: 1px solid brown; */
-      height: 100%;
+      height: auto;
       margin-top: 0px;
       padding: 10px;
       
@@ -238,9 +243,9 @@ justify-content: space-between;
     }
     .home-info>.p_name{
       border-bottom: 6px solid #ec7009;
-      height: 12%;
-      width: 30%;
-      margin-top: 10px;
+      /* height: 20%; */
+      width: 20vw;
+      margin-top: 0px;
       color: black;
       font-size: 38px;
       font-weight: 700;
@@ -255,13 +260,13 @@ justify-content: space-between;
       font-size: 38px;
       font-weight: bold;
       font-family: Arial, Helvetica, sans-serif;
-      width: 60%;
+      width: 30vw;
     }
     .home-info>.fs{
       border-bottom: 6px solid #ec7009;
       width: 50%;
       margin-left: 0px;
-      margin-top: 30px;
+      margin-top: 0px;
     }
   
     .home-info> #resume-button-2{

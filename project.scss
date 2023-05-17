@@ -31,8 +31,9 @@
   }
   
   @media screen and (max-width: 768px) {
-    min-height: 500px;
+    min-height: 1200px;
     height: auto;
+    background-color: green;
     margin: 180px auto;
   }
   
@@ -58,7 +59,7 @@
       }
       .project-card{
         > * {
-      
+    
         opacity: 1;
         transform: none;
 
@@ -114,7 +115,7 @@
     }
     @media screen and (max-width: 768px) {
     transform: translateY(-50%);
-      width: 90%;
+      width: 80%;
   }
     @media screen and (max-width: 576px) {
       width: 95%;
