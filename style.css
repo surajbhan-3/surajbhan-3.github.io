@@ -620,7 +620,7 @@ justify-content: space-between;
     width:72vw;
     height: auto;
     left: 20%;
-    top: 350vh;
+    top: 370vh;
     padding: 20px;
 
   }
@@ -650,7 +650,7 @@ justify-content: space-between;
     width:72vw;
     height: auto;
     left: 20%;
-    top: 420vh;
+    top: 450vh;
 
   }
 
@@ -942,41 +942,58 @@ justify-content: space-between;
   .contact-content{
 
      border: 1px solid saddlebrown;
-     background-color: #FFE6C7;
+     /* background-color: #FFE6C7; */
      display: flex;
      justify-content: space-between;
-     height: 400px;
+     height: 600px;
      padding: 20px;
      border: 12px;
      border-radius: 12px;
   }
   .contact-content> div{
     width: 48%;
+    padding: 20px;
+  
   }
 
   
   .column.left{
     border: 1px solid green;
     width: 48%;
+    list-style: none;
+    border-radius: 12px;
+    height: auto;
   
   
+  }
+  .contact-content a{
+    text-decoration: none;
+    color: #aa4f05;
+    
+  }
+  .contact-content > div{
+    background-color: #FFE6C7;
   }
   .column.left>.text{
-     font-size: 20px;
-     border: 2px solid blue;
+     font-size: 26px;
+     /* border: 2px solid blue; */
   }
   .column.left .icons{
-    border: 1px solid goldenrod;
-    width: auto;
-    margin-top: 0px;
-    height: 50%;;
+    /* border: 1px solid goldenrod; */
+    width: 45%;
+
+    margin-top: -80px;
+    height: 70%;;
   }
 
   .column.left .icons> div{
 
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
+    /* height: 40px; */
     font-size: 20px;
+    font-size: 20px;
+    margin: 10px;
     
   }
   .column.left .row{
@@ -986,7 +1003,7 @@ justify-content: space-between;
     
   }
   .column.left .row>div{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-left: 10%;
   }
 
@@ -1007,11 +1024,80 @@ justify-content: space-between;
   }
 
   .column.right{
-     border: 12px solid red;
+     /* border: 1px solid red; */
      height: auto;
+     border-radius: 12px;
+
+
      
   }
- 
+
+  .column.right>.text{
+    font-size: 26px;
+    /* border: 2px solid blue; */
+    margin-bottom: 20px;
+ }
+
+ .column.right.right .field.name input{
+
+   border: 2px solid #aa4f05;
+   /* padding: 20px; */
+   width: 230px;
+   height: 50px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   border-radius: 12px;
+
+ }
+
+
+ .column.right .field.email input{
+
+  border: 2px solid #aa4f05;
+  /* padding: 20px; */
+  width: 230px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.column.right .field.subject input{
+
+  border: 2px solid #aa4f05;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+
+   
+}
+ textarea{
+
+   border: 2px solid #aa4f05;
+   width: 100%;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   border-radius: 12px;
+
+
+}
+.column.right .button-area button{
+
+     margin-left: 0px;
+     border:  2px solid #aa4f05;
+     font-size: 20px;
+     height: 50px;
+     width: 150px;
+     border-radius: 12px;
+     background-color: #FFE6C7;
+     
+
+}
   
   
   
