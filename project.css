@@ -101,6 +101,7 @@
   width: 600px;
   flex-shrink: 0;
   height: 400px;
+  background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
   box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
   border-radius: 20px;
   transform: translateX(-80px);
@@ -142,22 +143,22 @@
     height: 270px;
   }
 }
-.blog-slider__content {
+.project-card l{
   padding-right: 25px;
 }
 @media screen and (max-width: 768px) {
-  .blog-slider__content {
+  .project-card {
     margin-top: -80px;
     text-align: center;
     padding: 0 30px;
   }
 }
 @media screen and (max-width: 576px) {
-  .blog-slider__content {
+  .project-card {
     padding: 0;
   }
 }
-.blog-slider__content > * {
+.project-card > * {
   opacity: 0;
   transform: translateY(25px);
   transition: all 0.4s;
