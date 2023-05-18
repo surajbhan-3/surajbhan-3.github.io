@@ -92,11 +92,11 @@ body{
       border: 1px solid red;
        text-align: left;
        height: auto;
-       width: auto;
+       width: 6vw;
        position: fixed;
        margin-top: 10vh;
        padding-bottom: 10vh;
-       margin-left: 1vw;
+       margin-left:0vw;
        border-radius: 15px;
       
   
@@ -115,6 +115,7 @@ body{
       margin-top: 30px;
       /* margin-left: 1.5vw; */
       padding: auto;
+      margin: 1rem;
       background-color: white;
       
   }
@@ -946,7 +947,7 @@ justify-content: space-between;
   
   .contact-content{
 
-     border: 1px solid saddlebrown;
+     /* border: 12px solid red; */
      /* background-color: #FFE6C7; */
      display: flex;
      justify-content: space-between;
@@ -1016,16 +1017,17 @@ justify-content: space-between;
 
   .fields{
     display: flex;
+    justify-content: space-between;
   }
   .field> input{
-    width: 100%;
+    width: 100vw;
   }
  
   .field.textarea{
-    width: 100%;
+    width: 100vw;
   }
   .field.textarea> textarea{
-     width: 100%;
+     width: 100vw;
   }
 
   .column.right{
@@ -1047,7 +1049,7 @@ justify-content: space-between;
 
    border: 2px solid #aa4f05;
    /* padding: 20px; */
-   width: 230px;
+   width: 14vw;
    height: 50px;
    font-size: 20px;
    margin-bottom: 20px;
@@ -1060,7 +1062,7 @@ justify-content: space-between;
 
   border: 2px solid #aa4f05;
   /* padding: 20px; */
-  width: 230px;
+  width: 14vw;
   height: 50px;
   font-size: 20px;
   margin-left: 20px;
@@ -1071,7 +1073,7 @@ justify-content: space-between;
 .column.right .field.subject input{
 
   border: 2px solid #aa4f05;
-  width: 100%;
+  width: 31vw;
   height: 50px;
   font-size: 20px;
   margin-top: 10px;
@@ -1083,7 +1085,7 @@ justify-content: space-between;
  textarea{
 
    border: 2px solid #aa4f05;
-   width: 100%;
+   width: 31vw;
    margin-top: 10px;
    margin-bottom: 20px;
    font-size: 20px;
