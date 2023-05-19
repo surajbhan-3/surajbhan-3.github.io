@@ -1,22 +1,206 @@
-@media screen and (max-width: 992px) {
 
 
-}
 
 
-@media screen and (max-width: 768px) {
-
-.profile-name{
-    background-color: green;
-    top: 2vh;
-    height: 3vh;
- }
-
-}
-
-
-@media screen and (max-width: 1080px) {
-    #menu-div>div{
-       margin: 5rem;
+@media all and (min-width:1900px) and (max-width:1920px){
+    .nav-link.home #menu-div{
+      /* border: 2px solid green; */
     }
+
+      
+  #menu-div>div{
+      border: 3px solid #ec7009;
+      border-radius: 50%;
+      height: 5rem;
+      width: 5rem;
+      margin-top: 30px;
+      /* margin-left: 1.5vw; */
+      padding: auto;
+      margin: 1rem;
+      background-color: #FFE6C7;
+      
+  }
+
+    #menu-div>div img{
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-left: 5px;
+      margin-top: 5px;
+
+  }
+
+
+   .nav-link.home #home-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #about-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #skill-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #projects-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #contacts-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+
+  }
+
+
+     .nav-link.home #resume-span{
+    left: 1.8vw;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+    
+/*  */
+.skills-sec{
+
+   top:120vh
+}
+
+#skills{
+  top:174vh
+}
+.stat{
+  top:225vh;
+}
+
+.project{
+  top:265vh
+}
+
+.react-activity-calendar{
+
+   top:325vh
+}
+
+#contact{
+  top:405vh
+}
+ 
+
+}
+
+
+
+
+
+
+
+@media all and (min-width:1280px) and (max-width:1510px){
+    .nav-link.home #menu-div{
+      /* border: 2px solid green; */
+    }
+
+      
+  #menu-div>div{
+      border: 3px solid #ec7009;
+      border-radius: 50%;
+      height: 3rem;
+      width: 3rem;
+      margin-top: 30px;
+      /* margin-left: 1.5vw; */
+      padding: auto;
+      margin: 1rem;
+      background-color: #FFE6C7;
+      
+  }
+
+    #menu-div>div img{
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-left: 0px;
+      margin-top: 0px;
+
+  }
+
+
+   .nav-link.home #home-span{
+    left: 1.8vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #about-span{
+    left: 1.8vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #skill-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #projects-span{
+    left: 1.2vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+
+     .nav-link.home #contacts-span{
+    left: 1.2vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+
+  }
+
+
+     .nav-link.home #resume-span{
+    left: 1.2vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1vh;
+  
+  }
+    
 }
