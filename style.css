@@ -1,6 +1,6 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
+    background-color:#FFE6C7;
     
   }
 *{
@@ -23,7 +23,7 @@ body{
       width:18vw;
       height:100%;
       /* background-color: DC5F00; */
-      background-color: bisque;
+      background-color: #FFA559;
       position: fixed;
       left: 0;
       top: 0;
@@ -31,7 +31,7 @@ body{
   }
   
   .profile-picture{
-      border: 2px solid black;
+      border: 4px solid #ec7009;
       border-radius: 50%;
       position:absolute;
       width: 15vw;
@@ -39,6 +39,7 @@ body{
       left :20px;
       right:100px;
       top:10px;
+      margin-top: 0vh;
   }
   
   .profile-picture > img{
@@ -48,21 +49,119 @@ body{
 
 .profile-name{
 
-   border: 2px solid black;
+   /* border: 2px solid black; */
    position: absolute;
-   left: 0;
+   left: 1.5vw;
    top: 30vh;
    height: 3vh;
-   width: 100%;
-   color: blue;
+   width: 26vh;
+   color: black;
+   text-align: center;
+   padding: 0px;
+   font-size: 20px;
+   font-weight: 700;
 }
+
+.fstack{
+  /* border: 2px solid black; */
+  position: absolute;
+  left: 1.5vw;
+  top: 34vh;
+  height: 3vh;
+  width: 26vh;
+  color: #aa4f05;
+  text-align: center;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.social{
+  border-bottom: 2px solid #aa4f05;
+  position: absolute;
+  left: 1vw;
+  top: 38vh;
+  height: 4vh;
+  width: 27vh;
+  color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;  
+}
+
+.social > div{
+  
+  /* border: 2px solid green; */
+  width: auto;
+  height: 100%;
+
+}
+
+
+
+.age-info{
+  border-bottom: 2px solid #aa4f05;
+  position: absolute;
+  left: 1vw;
+  top: 43vh;
+  height: 15vh;
+  width: 27vh;
+  color: black;
+  padding: 0px; 
+}
+
+.age-info >.age-1{
+  display: flex;
+  justify-content: space-between;
+}
+.age-info >.age-1 > div{
+  margin: 5px;
+}
+
+
+
+.git-hub-repo{
+  border-bottom: 2px solid #aa4f05;
+  
+  position: absolute;
+  left: 1vw;
+  top: 59vh;
+  height: auto;
+  width: 27vh;
+  color: black;
+  padding: 0px; 
+}
+  
+.git-hub-repo > .git-hub-repo-1 >div{
+  margin: 5px;
+  /* border: 1px solid green; */
+
+}
+
+
+.certs-list{
+  border-bottom: 2px solid #aa4f05;
+  
+  position: absolute;
+  left: 1vw;
+  top: 80vh;
+  height: auto;
+  width: 27vh;
+  color: black;
+  padding: 0px; 
+}
+
+
+
+
 
 
   
   
   .nav-link.home{
       /* border: 12px solid green; */
-      background-color: #FFE6C7;
+      background-color: #FFA559;
       height: 100%;
       width: 6vw;
       position: fixed;
@@ -88,8 +187,8 @@ body{
   }
   
    #menu-div{
-        background-color: #FFE6C7;
-      border: 1px solid red;
+        background-color: #FFA559;
+      /* border: 1px solid red; */
        text-align: left;
        height: auto;
        width: 6vw;
@@ -108,7 +207,7 @@ body{
   }
   
   #menu-div>div{
-      border: 2px solid chartreuse;
+      border: 3px solid #ec7009;
       border-radius: 50%;
       height: 3rem;
       width: 3rem;
@@ -116,7 +215,7 @@ body{
       /* margin-left: 1.5vw; */
       padding: auto;
       margin: 1rem;
-      background-color: white;
+      background-color: #FFE6C7;
       
   }
   #menu-div>div img{
@@ -127,6 +226,13 @@ body{
   #menu-div>.home-img,.about-img,.skills-img,.projects-img,.work-img,.contact-img,#resume-button-1{
       margin-top:  50px;
   }
+ 
+
+
+  
+
+    
+  
   
   
   
@@ -138,7 +244,59 @@ body{
       top: 10px;
       bottom: 10px;
   }
+  .nav-link.home #home-span{
+    left: 1.8vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
   
+  }
+
+  .nav-link.home #about-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+
+  .nav-link.home #skill-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+  
+  .nav-link.home #projects-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+  .nav-link.home #contacts-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+  }
+
+  .nav-link.home #resume-span{
+    left: 1.5vw;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: -1.5vh;
+    /* border: 1px solid black; */
+  }
+
+
   #menu-div>.about-img img{
   
       position: relative;
@@ -192,12 +350,15 @@ body{
   
   
   
+
   
   
   .profile-card{
-    /* border: 13px solid chartreuse; */
+    border: 3px solid #ec7009;
     width: 30%;
     height: 100%;
+    border-radius: 12px;
+
 
   }
 
@@ -209,7 +370,7 @@ body{
     height: 50vh;
     left: 20%;
     top: 0px;
-    background-color: #FFE6C7;
+    background-color: #FFA559;
     border-radius: 0px 0px 12px 12px;
     }
 
@@ -218,7 +379,7 @@ body{
   .home-div{
     height: 100%;
   
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     /* background-color: black; */
     display: flex;
 justify-content: space-between;
@@ -299,7 +460,7 @@ justify-content: space-between;
   #about{
   
        /* border: 6px solid blue; */
-       background-color:black;
+       /* background-color: green; */
       position: absolute;
       width:72vw;
       height: auto;
@@ -310,7 +471,7 @@ justify-content: space-between;
   
   .about-content{
     /* border: 6px solid green; */
-    background-color:black;
+    background-color:#FFA559;
     margin-top: 0px;
     margin-bottom: 0px;
     color: black;
@@ -319,7 +480,6 @@ justify-content: space-between;
     line-height: 150%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     padding: 15px;
     border-radius: 12px 12px 12px 12px;
     
@@ -328,23 +488,26 @@ justify-content: space-between;
   
   .about-content>div{
     /* border: 4px solid red; */
-    width: 48%;
-    padding: 20px;
-    border-radius: 12px;
-    background-color: #FFE6C7;
+    width: 50%;
+    padding:10px;
+    /* border-radius: 12px; */
+    background-color: #FFA559;
     height: auto;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 110%;
 
     
   
   }
  
+  .homee-img img{
+    border-radius: 6px;
+  }
   
   
   .skills-sec{
     /* border: 1px solid red; */
-    background-color: black;
+    /* background-color: black; */
     position: absolute;
   width:72vw;
 
@@ -355,14 +518,14 @@ justify-content: space-between;
   
   
   .skill-content{
-  
-       /* border: 2px solid blue; */
+/*   
+       border: 2px solid blue; */
       
        height: auto;
        display: flex;
        justify-content: space-between;
        padding: 20px;
-       background-color:#FFE6C7;
+       background-color:#FFA559;
        border-radius: 12px;
   
   }
@@ -373,7 +536,7 @@ justify-content: space-between;
      height: 300px;
      width: 30%;
      margin-top: 0px;
-     background-color: #FFA559;
+     background-color: #ec7009;
   }
 
 
@@ -389,8 +552,8 @@ justify-content: space-between;
   }
   
   .skill-content .sdiv .card:hover {
-    background: #ec7009;
-    color: #fff;
+    background: #FFE6C7;
+    color: #8b2202;
   }
   
   .skill-content .sdiv .card .box {
@@ -463,12 +626,12 @@ justify-content: space-between;
   .project{
   
     /* border: 2px solid rgb(230, 95, 17); */
-    background-color: black;
+    background-color: #FFE6C7;
     position: absolute;
   width:72vw;
   height: auto;
   left: 20%;
-  top: 290vh;
+  top: 320vh;
   }
 
   .carousel{
@@ -479,7 +642,7 @@ justify-content: space-between;
 .carousel> div{
   background-color: white;
   height: 30%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 20px;
   
 
@@ -565,12 +728,12 @@ justify-content: space-between;
     width:72vw;
     height: auto;
     left: 20%;
-    top: 180vh;
+    top: 200vh;
   }
 
 .skills-content{
-  border: 2px solid green;
-  background-color:black;
+  /* border: 2px solid green; */
+  background-color:#FFA559;
   display: flex;
   justify-content: space-between;
   height: auto;
@@ -580,8 +743,8 @@ justify-content: space-between;
 
 .skills-content> div{
   width: 48%;
-  border: 2px solid red;
-  background-color: #FFE6C7;
+  /* border: 2px solid red; */
+  background-color: #FFA559;
 
 }
 
@@ -589,19 +752,19 @@ justify-content: space-between;
 
   .stat{
     /* border: 2px solid red; */
-    background-color: black;
+    /* background-color: black; */
     position: absolute;
     width:72vw;
     height: 400px;
     left: 20%;
-    top: 230vh;
+    top: 265vh;
   }
 
   .s-content{
     display: flex;
     justify-content: space-between;
     color:black;
-    background-color: #FFE6C7;
+    background-color: #FFA559;
     height: auto;
     padding: 20px;
     border-radius: 12px;
@@ -611,7 +774,7 @@ justify-content: space-between;
 
   .s-content> .card{
      width: 30%;
-     background-color: #FFA559;
+     background-color: #ec7009;
      
   }
 
@@ -621,12 +784,12 @@ justify-content: space-between;
 
 
     /* border: 2px solid red; */
-    background-color: black;
+    background-color: #FFE6C7;
     position: absolute;
     width:72vw;
     height: auto;
     left: 20%;
-    top: 370vh;
+    top: 395vh;
     padding: 20px;
 
   }
@@ -635,7 +798,7 @@ justify-content: space-between;
 
   .container-gitstat{
     
-    background-color: #FFE6C7;
+    background-color: #FFA559;
     border-radius: 12px;
 
    
@@ -651,12 +814,12 @@ justify-content: space-between;
   #contact{
 
     /* border: 2px solid red; */
-    background-color: black;
+    background-color: #FFE6C7;
     position: absolute;
     width:72vw;
     height: auto;
     left: 20%;
-    top: 450vh;
+    top: 495vh;
 
   }
 
@@ -671,20 +834,31 @@ justify-content: space-between;
   
 
   #about-heading{
-    background-color: black;
+    /* background-color: #FFA559; */
     /* border-radius: 12px; */
+    
+    background-color:#8b2202;
+    border-radius: 12px;
+     margin-bottom: 40px;
   }
 
   #skills-heading{
     /* border: 1px solid brown; */
 
-    background-color:black;
+    background-color:#8b2202;
+    border-radius: 12px;
+    /* border: 2px solid black; */
+    margin-bottom: 40px;
+
 
   }
 
   #git-heading{
     
-    background-color:black;
+    background-color:#8b2202;
+    margin-bottom: 40px;
+    border-radius: 12px;
+
 
   }
   #contact-heading{
@@ -692,10 +866,12 @@ justify-content: space-between;
   width:100%;
   height: auto;
   left: 20%;
-  top: -60px;
+   margin-bottom: 40px;
+   border-radius: 12px;
+
  
   
-    background-color: black;
+    background-color: #8b2202;
     /* text-align: center; */
   }
   
@@ -706,7 +882,9 @@ justify-content: space-between;
 
   height: auto;
  
-    background-color:black;
+    background-color:#8b2202;
+    border-radius: 12px;
+    margin-bottom: 40px;
     /* text-align: center; */ 
   }
 
@@ -714,9 +892,10 @@ justify-content: space-between;
   #stat-heading{
 
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    border-radius: 12px;
    
-      background-color:black
+      background-color:#8b2202;
     }
 
   
@@ -725,7 +904,9 @@ justify-content: space-between;
  
   height: auto;
 
-    background-color: black;
+    background-color: #8b2202;
+    border-radius: 12px;
+    margin-bottom: 40px;
   }
   
 
@@ -779,7 +960,7 @@ justify-content: space-between;
      
      /* border: 1px solid aqua; */
      width: 100%;
-     background-color: #FFE6C7;
+     background-color: #FFA559;
      display: flex;
      border-radius: 12px;
     
@@ -812,8 +993,10 @@ justify-content: space-between;
       position: relative;
       top: 18%;
       left: 50%;
-      width: 40em;
-      margin: 0 0 0 -20em;
+      width: 20em;
+      margin: 0 0 0 -10em;
+      background-color: #8b2202;
+      border-radius: 12px;
   }
     
     #about-info-span,#skills-info-span,#techstack-info-span,#project-info-span,#contact-info-span,#git-info-span,#stat-info-span{
@@ -959,12 +1142,13 @@ justify-content: space-between;
   .contact-content> div{
     width: 48%;
     padding: 20px;
+    
   
   }
 
   
   .column.left{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     width: 48%;
     list-style: none;
     border-radius: 12px;
@@ -978,7 +1162,7 @@ justify-content: space-between;
     
   }
   .contact-content > div{
-    background-color: #FFE6C7;
+    background-color: #FFA559;
   }
   .column.left>.text{
      font-size: 26px;
@@ -988,7 +1172,7 @@ justify-content: space-between;
     /* border: 1px solid goldenrod; */
     width: 45%;
 
-    margin-top: -80px;
+    margin-top: -30px;
     height: 70%;;
   }
 

@@ -21,3 +21,8 @@ var swiper = new Swiper('.blog-slider', {
       clickable: true,
     }
   });
+
+  var screenWidth = window.screen.width;
+var screenHeight = window.screen.height;
+
+console.log("Screen Resolution: " + screenWidth + "x" + screenHeight);

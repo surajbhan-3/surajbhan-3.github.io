@@ -5,7 +5,12 @@
 
 
 @media screen and (max-width: 768px) {
-    
+
+.profile-name{
+    background-color: green;
+    top: 2vh;
+    height: 3vh;
+ }
 
 }
 
