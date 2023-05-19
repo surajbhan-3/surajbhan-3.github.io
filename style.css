@@ -21,7 +21,7 @@ body{
   
       /* border: 1px solid red; */
       width:18vw;
-      height:100%;
+      height:100vh;
       /* background-color: DC5F00; */
       background-color: #FFA559;
       position: fixed;
@@ -30,15 +30,19 @@ body{
   
   }
   
+  .profileWrapper{
+    /* border: 2px solid green; */
+    height: 27vh;
+  }
   .profile-picture{
       border: 4px solid #ec7009;
       border-radius: 50%;
-      position:absolute;
+      position:fixed;
       width: 15vw;
-      height: 15vw;
+      height: 26vh;
       left :20px;
       right:100px;
-      top:10px;
+      top:1vh;
       margin-top: 0vh;
   }
   

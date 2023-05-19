@@ -1,7 +1,6 @@
 
 
 
-
 @media all and (min-width:1900px) and (max-width:1920px){
     .nav-link.home #menu-div{
       /* border: 2px solid green; */
@@ -120,11 +119,58 @@
 
 
 
-@media all and (min-width:1280px) and (max-width:1510px){
+@media all and (min-width:1280px) and (max-width:1365px){
     .nav-link.home #menu-div{
       /* border: 2px solid green; */
     }
 
+    .profileWrapper{
+        height: 20vh;
+
+    }
+    .profile-picture{
+      width: 15vw;
+      height: 15vw;
+    }
+
+    .profile-name{
+
+       top:22vh;
+       left: -1.5vw;
+    }
+
+    .fstack{
+      top: 25vh;
+      left: -1.5vw;
+
+    }
+
+    .social{
+
+      top: 29vh;
+      left: 0.5vw;
+      width: 17vw;
+    }
+
+    .age-info{
+
+      top: 34vh;
+      left: 0.5vw;
+      width: 17vw;
+    }
+
+    .git-hub-repo{
+
+      top: 50vh;
+      left: 0.5vw;
+      width: 17vw;
+    }
+
+    .certs-list{
+      top: 65vh;
+      left: 0.5vw;
+      width: 17vw;
+    }
       
   #menu-div>div{
       border: 3px solid #ec7009;
@@ -202,5 +248,32 @@
     top: -1vh;
   
   }
+
+  .skills-sec{
+    top: 110vh;
+  }
+
+
+  #skills{
+    top: 165vh;
+  }
+
+  .stat{
+
+     top: 215vh;
+  }
+
+  .project{
+    top: 260vh;
+  }
+
+  .react-activity-calendar{
+    top: 325vh;
+  }
+
+  #contact{
+    top: 400vh;
+  }
+
     
 }
