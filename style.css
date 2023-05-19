@@ -6,6 +6,23 @@ body{
 *{
   box-sizing: border-box;
 }
+/* Hide the default scroll bar */
+body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #aa4f05;
+}
+
+
+
+
+
   main{
 
     width: 100%;
