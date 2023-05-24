@@ -351,7 +351,7 @@
 
 
 
-@media all and (min-width:374px) and (max-width:415px){
+@media all and (min-width:374px) and (max-width:1000px){
 
 
 .left-sidebar{
@@ -544,7 +544,7 @@ background-color: #FFA559;
 
 #about{
  
-  top: 100vh;
+  top: 85vh;
   width: 100%;
   left: 0%;
 
