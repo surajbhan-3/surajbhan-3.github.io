@@ -1,31 +1,95 @@
 
 
 
-@media all and (min-width:1900px) and (max-width:1920px){
+@media all and (min-width:1600px) and (max-width:1921px){
     .nav-link.home #menu-div{
       /* border: 2px solid green; */
     }
 
+    .nav-link.home{
+      width: 80px;
+      left: auto;
+    }
+
       .left-sidebar{
         height: 100%;
+        width: 320px;
+        
       }
+      .profile-picture{
+        width: 280px;
+        height: 280px;
+        left: 18px;
+
+      }
+      .profile-name{
+        width: 310px;
+        /* background-color: green; */
+        margin-top: 10px;
+        margin-left: 30px;
+        height: 25px;
+        font-size: 20px;
+        
+
+      }
+
+      .social{
+        width: 280px;
+        left: 10px;
+      }
+.fstack{
+  width: 300px;
+  height: 20px;
+  font-size: 16px;
+  width: 320px;
+}
+
+      .age-info{
+        width: 280px;
+        left: 10px;
+        padding-bottom: 10px;
+        /* border:2px solid green; */
+        height: 120px;
+
+      }
+
+   .git-hub-repo{
+    width: 280px;
+    left: 10px;
+    padding-bottom: 10px;
+    top: 55vh;
+   }
+   .certs-list{
+      top: 70vh;
+     width: 280px;
+     left: 10px;
+     padding-bottom: 10px;
+
+
+   }
+
+   #menu-div{
+  
+    width: 80px;
+   }
+
 
   #menu-div>div{
       border: 3px solid #ec7009;
       border-radius: 50%;
-      height: 5rem;
-      width: 5rem;
+      height: 4rem;
+      width: 4rem;
       margin-top: 30px;
       /* margin-left: 1.5vw; */
       padding: auto;
-      margin: 1rem;
+      margin-left: 10px;
       background-color: #FFE6C7;
       
   }
 
     #menu-div>div img{
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 1.8rem;
+      height: 1.8rem;
       margin-left: 5px;
       margin-top: 5px;
 
@@ -33,7 +97,7 @@
 
 
    .nav-link.home #home-span{
-    left: 1.8vw;
+    left: 22px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -42,7 +106,7 @@
   }
 
      .nav-link.home #about-span{
-    left: 1.8vw;
+    left: 22px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -51,7 +115,7 @@
   }
 
      .nav-link.home #skill-span{
-    left: 1.8vw;
+    left:22px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -60,7 +124,7 @@
   }
 
      .nav-link.home #projects-span{
-    left: 1.8vw;
+    left: 18px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -69,7 +133,7 @@
   }
 
      .nav-link.home #contacts-span{
-    left: 1.8vw;
+    left: 18px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -79,7 +143,7 @@
 
 
      .nav-link.home #resume-span{
-    left: 1.8vw;
+    left: 18px;
     font-size: 15px;
     text-align: center;
     position: relative;
@@ -132,47 +196,50 @@
 
     }
     .profile-picture{
-      width: 15vw;
-      height: 15vw;
+      width: 200px;
+      height: 200px;
     }
 
     .profile-name{
 
-       top:22vh;
-       left: -1.5vw;
+       top:25vh;
+       left: 0vw;
+       width: 100%;
     }
 
     .fstack{
-      top: 25vh;
-      left: -1.5vw;
-
+      top: 29vh;
+      width: 240px;
+      height: 20px;
+      font-size: 15px;
+      padding: auto;
     }
 
     .social{
 
-      top: 29vh;
-      left: 0.5vw;
-      width: 17vw;
+      top: 34vh;
+      left: 0;
+      width: 240px;
     }
 
     .age-info{
 
-      top: 34vh;
-      left: 0.5vw;
-      width: 17vw;
+      top: 39vh;
+      left: 0;
+      width: 240px;
     }
 
     .git-hub-repo{
 
-      top: 50vh;
+      top: 58vh;
       left: 0.5vw;
-      width: 17vw;
+      width: 240px;
     }
 
     .certs-list{
-      top: 65vh;
+      top: 75vh;
       left: 0.5vw;
-      width: 17vw;
+      width: 240px;
     }
       
   #menu-div>div{

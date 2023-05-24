@@ -2,6 +2,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color:#FFE6C7;
     
+
+    
   }
 *{
   box-sizing: border-box;
@@ -26,7 +28,8 @@ body::-webkit-scrollbar-thumb {
   main{
 
     width: 100%;
-    
+
+   /* max-width: 1200px;  */
 
   }
 
@@ -36,14 +39,16 @@ body::-webkit-scrollbar-thumb {
   
   .left-sidebar{
   
-      /* border: 1px solid red; */
-      width:18vw;
+      border: 3px solid red;
+      width:250px;
+      max-width:320px ;
       height:100vh;
       /* background-color: DC5F00; */
       background-color: #FFA559;
       position: fixed;
       left: 0;
       top: 0;
+      padding: 10px;
   
   }
   
@@ -55,9 +60,12 @@ body::-webkit-scrollbar-thumb {
       border: 4px solid #ec7009;
       border-radius: 50%;
       position:fixed;
-      width: 15vw;
-      height: 26vh;
-      left :20px;
+      width: 200px;
+      max-width: 280px;
+      height: 200px;
+      max-height: 280px;
+
+      left :24px;
       right:100px;
       top:1vh;
       margin-top: 0vh;
@@ -72,40 +80,48 @@ body::-webkit-scrollbar-thumb {
 
    /* border: 2px solid black; */
    position: absolute;
-   left: 1.5vw;
-   top: 30vh;
-   height: 3vh;
-   width: 26vh;
+   left: 0vw;
+   top: 28vh;
+   height: 25px;
+   max-height: 30px;
+   width: 300px;
+   max-width: 320px;
    color: black;
    text-align: center;
    padding: 0px;
    font-size: 20px;
    font-weight: 700;
+   max-width: 250px;
 }
 
 .fstack{
   /* border: 2px solid black; */
   position: absolute;
-  left: 1.5vw;
-  top: 34vh;
+  left: 0;
+  top: 32vh;
   height: 3vh;
-  width: 26vh;
+  width: 240px;
+  max-width: 320px;
+
+  max-width: 320px;
   color: #aa4f05;
   text-align: center;
   padding: 0px;
   font-size: 15px;
   font-weight: 600;
-  text-overflow:ellipsis;
 }
 
 
 .social{
   border-bottom: 2px solid #aa4f05;
   position: absolute;
-  left: 1vw;
+  left: 0;
+
   top: 38vh;
   height: 4vh;
-  width: 27vh;
+  width: 240px;
+  max-width: 320px;
+
   color: black;
   padding: 0px;
   display: flex;
@@ -126,10 +142,11 @@ body::-webkit-scrollbar-thumb {
 .age-info{
   border-bottom: 2px solid #aa4f05;
   position: absolute;
-  left: 1vw;
+  left: 0;
   top: 43vh;
   height: 15vh;
-  width: 27vh;
+  width: 240px;
+  max-width: 320px;
   color: black;
   padding: 0px; 
 }
@@ -137,6 +154,7 @@ body::-webkit-scrollbar-thumb {
 .age-info >.age-1{
   display: flex;
   justify-content: space-between;
+
 }
 .age-info >.age-1 > div{
   margin: 5px;
@@ -148,10 +166,10 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 2px solid #aa4f05;
   
   position: absolute;
-  left: 1vw;
+  left: 0;
   top: 59vh;
   height: auto;
-  width: 27vh;
+  width: 240px;
   color: black;
   padding: 0px; 
 }
@@ -167,10 +185,10 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 2px solid #aa4f05;
   
   position: absolute;
-  left: 1vw;
+  left: 0;
   top: 80vh;
   height: auto;
-  width: 27vh;
+  width: 240px;
   color: black;
   padding: 0px; 
 }
@@ -186,9 +204,10 @@ body::-webkit-scrollbar-thumb {
       /* border: 12px solid green; */
       background-color: #FFA559;
       height: 100%;
-      width: 6vw;
+      width: 80px;
+      max-width: 80px;
       position: fixed;
-      left: 94vw;
+      left: auto;
       top: 0;
       right: 0%;
       position: fixed;
@@ -214,7 +233,8 @@ body::-webkit-scrollbar-thumb {
       /* border: 1px solid red; */
        text-align: left;
        height: auto;
-       width: 6vw;
+       width: 80px;
+       max-width: 80px;
        position: fixed;
        margin-top: 10vh;
        padding-bottom: 10vh;
