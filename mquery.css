@@ -547,8 +547,49 @@ background-color: #FFA559;
   top: 85vh;
   width: 100%;
   left: 0%;
+  height: auto;
+ 
 
 }
+
+.about-content{
+  border: 2px solid green;
+
+  display: block;
+  justify-content: space-between;
+}
+.about-content>div{
+  width: 100%;
+}
+
+
+.skills-sec{
+  top:178vh ;
+  width: 100%;
+  left: 0%;
+}
+
+.skill-content{
+  border: 2px solid red;
+  display: block;
+ 
+
+}
+
+.skill-content > div{
+
+  border: 2px solid red;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#skills{
+  top: 300vh;
+
+}
+
 
 
 }
