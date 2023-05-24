@@ -80,3 +80,15 @@ h2 {
   align-items: center;
   justify-content: space-around;
 }
+
+@media all and (min-width:374px) and (max-width:415px){
+
+  .aborder{
+
+
+  }
+  .card-1{
+    height: 100%;
+  }
+
+}
