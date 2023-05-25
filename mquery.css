@@ -586,11 +586,103 @@ background-color: #FFA559;
 
 
 #skills{
-  top: 300vh;
+  top: 320vh;
+  width: 100%;
+  left: 0%;
+
+
+}
+
+.skill-content{
+  flex-wrap: wrap;
+}
+
+
+.stat{
+
+  top:450vh;
+  left: 0%;
+  width: 100%;
+
+}
+
+.skills-card{
+  width: auto;
+}
+
+.columnRight{
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+}
+
+.columnLeft{
+   width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+}
+.skills-content{
+
+   display: block;
+   width: 100%;
+
+}
+.skills-content> div{
+  width: 100vw;
+
+
+}
+
+.s-content{
+  display: block;
+
+}
+.s-content > .card{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 
 }
 
 
+
+
+.project{
+  top: 545vh;
+  left: 0%;
+  width: 100%;
+
+
+}
+
+.react-activity-calendar{
+
+  top: 665vh;
+  left: 0%;
+  width: 100%;
+
+
+}
+
+.regular{
+  width: 100%;
+  display: block;
+
+}
+.regular .git-card{
+  margin: auto;
+  padding: auto;
+  width: 100%;
+}
+
+
+
+#contact{
+  top: 800vh;
+  width: 100%;
+  left: 0%;
+  
+
+}
 
 }
 
