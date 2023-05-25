@@ -832,7 +832,7 @@ justify-content: space-between;
     height: auto;
     left: 20%;
     top: 395vh;
-    padding: 20px;
+    
 
   }
 
@@ -900,6 +900,7 @@ justify-content: space-between;
     background-color:#8b2202;
     margin-bottom: 40px;
     border-radius: 12px;
+    left: 20%;
 
 
   }
