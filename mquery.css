@@ -175,9 +175,18 @@
 }
 
 #contact{
-  top:405vh
+  top:395vh
 }
- 
+
+
+
+.column.left .icons{
+  /* border: 1px solid goldenrod; */
+  width: 45%;
+
+  margin-top: 30px;
+  height: 30%;;
+}
 
 }
 
@@ -201,6 +210,13 @@
       height: 200px;
     }
 
+    .column.left .icons{
+      /* border: 1px solid goldenrod; */
+      width: 45%;
+    
+      margin-top: 30px;
+      height: 30%;;
+    }
     .profile-name{
 
        top:25vh;
@@ -249,11 +265,25 @@
       height: 3rem;
       width: 3rem;
       margin-top: 30px;
+      .column.left .icons{
+        /* border: 1px solid goldenrod; */
+        width: 45%;
+      
+        margin-top: 30px;
+        height: 30%;;
+      }
       /* margin-left: 1.5vw; */
       padding: auto;
       margin: 1rem;
       background-color: #FFE6C7;
       
+  }
+  .column.left .icons{
+    /* border: 1px solid goldenrod; */
+    width: 45%;
+  
+    margin-top: 30px;
+    height: 30%;;
   }
 
     #menu-div>div img{
@@ -344,6 +374,16 @@
 
   #contact{
     top: 400vh;
+  }
+
+
+
+  .column.left .icons{
+    /* border: 1px solid goldenrod; */
+    width: 45%;
+
+    margin-top: 30px;
+    height: 30%;;
   }
 
     
@@ -459,7 +499,18 @@
 }
 
 
+.contact-content{
 
+  /* border: 12px solid red; */
+  /* background-color: #FFE6C7; */
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  padding: 20px;
+  border: 12px;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
 
 .middle-portion-intro{
 
@@ -608,7 +659,18 @@ background-color: #FFA559;
 }
 
 .skills-card{
-  width: auto;
+  width: auto;.contact-content{
+
+    /* border: 12px solid red; */
+    /* background-color: #FFE6C7; */
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    padding: 20px;
+    border: 12px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+ }
 }
 
 .columnRight{
@@ -636,6 +698,17 @@ background-color: #FFA559;
 .s-content{
   display: block;
 
+}.contact-content{
+
+  /* border: 12px solid red; */
+  /* background-color: #FFE6C7; */
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  padding: 20px;
+  border: 12px;
+  border-radius: 12px;
+  flex-wrap: wrap;
 }
 .s-content > .card{
   width: 100%;
@@ -683,6 +756,19 @@ background-color: #FFA559;
   left: 0%;
   
 
+}
+
+.contact-content{
+
+  /* border: 12px solid red; */
+  /* background-color: #FFE6C7; */
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  padding: 20px;
+  border: 12px;
+  border-radius: 12px;
+  flex-wrap: wrap;
 }
 
 }
