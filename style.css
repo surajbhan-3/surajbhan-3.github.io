@@ -172,8 +172,23 @@ body::-webkit-scrollbar-thumb {
   width: 240px;
   color: black;
   padding: 0px; 
+ 
+
+}
+
+.git-hub-repo > div> div a{
+
+  text-decoration: none;
+  color: black;
 }
   
+.git-hub-repo > div> div a:hover{
+
+  text-decoration: none;
+  color: blue;
+}
+  
+
 .git-hub-repo > .git-hub-repo-1 >div{
   margin: 5px;
   /* border: 1px solid green; */
@@ -196,7 +211,19 @@ body::-webkit-scrollbar-thumb {
 
 
 
+.certs-list > div> div a{
 
+  text-decoration: none;
+  color: black;
+}
+
+
+.certs-list > div> div a:hover{
+
+  text-decoration: none;
+  color: blue;
+}
+  
 
   
   
