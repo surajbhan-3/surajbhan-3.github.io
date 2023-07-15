@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/surajbhan-3.github.io/static/css/main.5fb36222.css",
-    "main.js": "/surajbhan-3.github.io/static/js/main.d84d225a.js",
-    "static/js/787.1ed0c42c.chunk.js": "/surajbhan-3.github.io/static/js/787.1ed0c42c.chunk.js",
-    "static/media/surajbhan.jpg": "/surajbhan-3.github.io/static/media/surajbhan.b2f333622d09708419dd.jpg",
-    "index.html": "/surajbhan-3.github.io/index.html",
-    "main.5fb36222.css.map": "/surajbhan-3.github.io/static/css/main.5fb36222.css.map",
-    "main.d84d225a.js.map": "/surajbhan-3.github.io/static/js/main.d84d225a.js.map",
-    "787.1ed0c42c.chunk.js.map": "/surajbhan-3.github.io/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.5fb36222.css",
+    "main.js": "/static/js/main.ff674f0a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/surajbhan.jpg": "/static/media/surajbhan.b2f333622d09708419dd.jpg",
+    "index.html": "/index.html",
+    "main.5fb36222.css.map": "/static/css/main.5fb36222.css.map",
+    "main.ff674f0a.js.map": "/static/js/main.ff674f0a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fb36222.css",
-    "static/js/main.d84d225a.js"
+    "static/js/main.ff674f0a.js"
   ]
 }
