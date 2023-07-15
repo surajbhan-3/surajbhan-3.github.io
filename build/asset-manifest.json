@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5fb36222.css",
+    "main.js": "/static/js/main.ff674f0a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/surajbhan.jpg": "/static/media/surajbhan.b2f333622d09708419dd.jpg",
+    "index.html": "/index.html",
+    "main.5fb36222.css.map": "/static/css/main.5fb36222.css.map",
+    "main.ff674f0a.js.map": "/static/js/main.ff674f0a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fb36222.css",
+    "static/js/main.ff674f0a.js"
+  ]
+}
