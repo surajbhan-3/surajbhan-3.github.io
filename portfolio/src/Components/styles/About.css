@@ -1,0 +1,27 @@
+
+.about-section{
+    /* border: 1px solid rebeccapurple; */
+     width: 75%;
+     margin: auto;
+     padding: 10px;
+     margin-top: 10px;
+    min-height: 500px;
+    max-height: auto;
+     
+
+}
+.about-section>h1{
+    font-family: 'Chela One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.aboutme-container{
+    /* border: 1px solid seagreen; */
+    height: auto;
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+    margin-top: 50px;
+
+}
