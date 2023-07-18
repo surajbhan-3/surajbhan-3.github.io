@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.587b10c7.css",
-    "main.js": "/static/js/main.305f04eb.js",
+    "main.css": "/static/css/main.1a5eb980.css",
+    "main.js": "/static/js/main.edcdef99.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Suraj-Bhan-Singh-Resume.pdf": "/static/media/Suraj-Bhan-Singh-Resume.bbf08a710091b45d2ffc.pdf",
     "static/media/surajbhan.jpg": "/static/media/surajbhan.b2f333622d09708419dd.jpg",
     "index.html": "/index.html",
-    "main.587b10c7.css.map": "/static/css/main.587b10c7.css.map",
-    "main.305f04eb.js.map": "/static/js/main.305f04eb.js.map",
+    "main.1a5eb980.css.map": "/static/css/main.1a5eb980.css.map",
+    "main.edcdef99.js.map": "/static/js/main.edcdef99.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.587b10c7.css",
-    "static/js/main.305f04eb.js"
+    "static/css/main.1a5eb980.css",
+    "static/js/main.edcdef99.js"
   ]
 }
