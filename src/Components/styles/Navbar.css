@@ -6,8 +6,9 @@ body{
 
 
 
-.nav-container{
-    border: 1px solid red;
+#nav-menu{
+    border: 0.5px solid gray;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -16,12 +17,8 @@ body{
     position: fixed;
     left:10%;
     top:2%;
-
+    margin-bottom: 100px;
     
-
-
-
-
 }
 
 
@@ -38,26 +35,28 @@ body{
     margin-left: 0px;
 
 }
+
 .logo img{
+
     height: 75px;
     width: 75px;
     border-radius: 50%;
-   border: 2px solid blueviolet;
+    border: 2px solid black;
 
 }
 
 
 .logo a {
+
     text-decoration: none;
-    
-   
-  
 }
 
 
  .logo a:hover {
+    
    
 }
+
 
 
 .main-list{
@@ -77,21 +76,22 @@ body{
 
 
 
-.nav-container ul>li{
+#nav-menu ul>li{
      list-style: none;
      
 
 }
 
-.nav-container ul>li>a{
+#nav-menu ul>li>a{
      text-decoration: none;
      color: #000;
     
 }
 
-.nav-container>div{
+#nav-menu>div{
      
      /* border: 1px solid black; */
+     margin-right: 32px;
 }
 
 
@@ -100,6 +100,10 @@ body{
     justify-content: space-between;
       align-items: center; 
       font-size: 16px;
+      margin-top: 25px;
+      flex-wrap: wrap;
+      margin-right: 20px;
+      /* border: 1px solid black; */
       
  
     
@@ -109,21 +113,105 @@ body{
      font-size: 20px;
 
 }
+.dark-mode-btn{
+    margin-top: 24px;
+    border-radius: 50%;
+}
+.dark-mode-btn>button{
+    border-radius: 50%;
+}
 
 #burger-menu{
     display: none;
 
 }
 
+#ho,#ab,#sk,#co,#pr,#resume-link-1,#st{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+
+#ho::after,#ab::after,#sk::after,#co::after,#pr::after,#resume-link-1::after,#st::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Adjust this value to control the distance between text and underline */
+    width: 100%;
+    height: 2px;
+    background-color: rgb(83, 5, 5); /* Set the color of the underline */
+    transform: scaleX(0); /* Start with no underline */
+    transform-origin: left;
+    transition: transform 0.3s ease; 
+}
+#ho:hover::after,#ab:hover::after,#sk:hover::after,#co:hover::after,#pr:hover:after,#resume-link-1:hover:after,#st:hover:after{
+
+    transform: scaleX(1);
+}
+#h1-name{
+ display: none;       
+}
 
 
-@media  (min-width:300px) and (max-width:1200px){
-   
- #burger-menu{
+@media  (min-width:300px) and (max-width:650px){
+    #burger-menu{
         display: block;
 
      }
-     .ul-links .nav-icons{
+     .ul-links{
         display: none;
      }
+   
+     .main-list{
+        
+        display: none;
+     }
+
+       .dark-mode-btn{
+        display: none;
+     }
+
+
+   #nav-menu{
+      width: 100%;
+      position: relative;
+      left: 0;
+      top:0;
+      margin-bottom: 0px;
+      /* margin: auto;
+      margin-left: 0px; */
+      /* border: 1px solid green; */
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: center;
+      justify-content: space-between;
+   }
+   #nav-menu div{
+    /* border: 1px solid purple; */
+    /* width: 100px; */
+    width: auto;
+   
+   }
+  #nav-menu>#h1-name{
+    display: block;
+    font-size: 1.5em;
+    width: auto;
+    /* border: 1px solid green; */
+   }
+ 
+
+  
+}
+
+
+@media  (min-width:300px) and (max-width:398px){
+    #nav-menu>#h1-name{
+        display: block;
+        font-size: 1.5em;
+        width: auto;
+        margin-left: 25px;
+        /* border: 1px solid green; */
+       }
+
 }

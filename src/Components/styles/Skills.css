@@ -1,16 +1,149 @@
 .skills-section{
 
-    border: 1px solid green;
-    width: 75%;
+    /* border: 1px solid green; */
+    width: 80%;
     margin: auto;
     padding: 10px;
     margin-top: 10px;
-
-
-}
-
-.skills-container{
-    border: 1px solid red;
-    height: 200px;
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%); */
+    border-radius: 12px;
 
 }
+.skills-inside{
+    /* border: 1px solid red; */
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.skills-section h1{
+    font-family: 'Chela One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* margin-top: 100px; */
+}
+
+.skills-card{
+    /* border: 1px solid red; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap: 80px;
+    padding: 10px;
+    /* overflow: hidden; */
+}
+.skills-card >div{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    /* border-radius: 50%; */
+}
+.skills-card>div:hover{
+    transform: scale(1.5);
+    transition: ease-out 0.3s;
+}
+
+.skills-card-img{
+     border: 1px solid black;
+     border-radius: 50%;
+     padding: 10px;
+}
+.skills-card-name{
+    text-align: center;
+}
+
+.skills-card-img.html:hover{
+    background-color:black;
+    color: orangered;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.css:hover{
+    background-color:black;
+    color: blue;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.js:hover{
+    background-color:black;
+    color: yellow;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.react:hover{
+    background-color:black;
+    color: darkturquoise;
+    transition: ease-out 0.5s;
+}
+
+.skills-card-img.nodejs:hover{
+    background-color:black;
+    color: green;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.md:hover{
+    background-color:black;
+    color: greenyellow;
+    transition: ease-out 0.5s;
+}
+
+.skills-card-img.ex:hover{
+    background-color:black;
+    color: yellowgreen;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.sql:hover{
+    background-color:black;
+    color: skyblue;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.netlify:hover{
+    background-color:black;
+    color: darkcyan;
+    transition: ease-out 0.5s;
+}
+
+.skills-card-img.aws:hover{
+    background-color:black;
+    color: orange;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.socket:hover{
+    background-color:black;
+    color: white;
+    transition: ease-out 0.5s;
+}
+.skills-card-img.redux:hover{
+    background-color:black;
+    color: purple;
+    transition: ease-out 0.5s;
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10{
+
+   
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+     
+}
+@media  (min-width:300px) and (max-width:650px){
+
+     .skills-section{
+
+        width: 100%;
+        padding: 0%;
+     }
+    .skills-card{
+        /* border: 1px solid red; */
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 80px;
+        padding: 10px;
+    
+    
+        
+    }
+}
+

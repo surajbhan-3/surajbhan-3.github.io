@@ -4,35 +4,49 @@
 .home-section{
 
     /* border: 1px solid blue; */
-    height: 500px;
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%); */
 
-    width: 75%;
+    min-height: 500px;
+    max-height:auto ;
+
+    width: 80%;
     margin: auto;
     margin-top: 120px;
     padding: 10px;
+    border-radius: 6px;
    
 
 }
 
 .home-div{
-     /* border: 1px solid red; */
+
+     /* background: radial-gradient(circle at 10% 20%, rgb(253, 193, 104) 0%, rgb(251, 128, 128) 90%); */
+     /* background: linear-gradient(109.6deg, rgb(78, 62, 255) 11.2%, rgb(164, 69, 255) 91.1%); */
+     background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+
      height: inherit;
      margin: auto;
      display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    flex-direction: row-reverse;
+ border-radius: 12px;
+ padding-bottom: 100px;
+ 
 
 
 }
 .home-div >div{
 
     margin: 10px;
+    margin-top: 60px;
+    
+
 
 }
-.home-img{
+.home-imgee{
      /* border: 1px solid green; */
-     height: auto;
+     height: 400px;
      margin-top: 10px;
      width: 40%;
      
@@ -41,26 +55,35 @@
      /* border-radius: 50%; */
      
 }
-.home-img>div{
+.home-imgee>div{
     /* border: 1px solid brown; */
-    width: 90%;
+    
+    width: 80%;
    
     margin: auto;    
-    margin-top: 50px;
+    margin-top: 10px;
 
 }
-.home-img  img{
+.home-imgee  img{
     width: inherit;
     height: inherit;
     border-radius: 50%;
     border: 2px solid blueviolet;
     margin-left: 30px;
     
+}
+.home-imgee img:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    
 
 }
+
+
 .home-details{
     /* border: 1px solid green; */
     width: 50%;
+    height: 400px;
    
 }
 .home-details>h1{
@@ -73,6 +96,9 @@
     
 }
 
+.welcome{
+    color: rgb(228, 131, 131);
+}
 
 
 #user-detail{
@@ -92,6 +118,24 @@ h2{
    
 
 }
+.social-media>button{
+
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.social-media>button>a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-media>button:hover{
+       border: 1px solid black;
+      transform: scale(1.5);
+      transition: ease-out 0.3s;
+      background-color:plum;
+}
 
 .social-media>div{.home-details>span{
     font-size: 20px;
@@ -104,3 +148,53 @@ h2{
 
 }
 
+#resume-button-2 {
+    list-style: none;
+
+        
+}
+#resume-button-2 a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        width: 15%;
+        padding: 10px;
+        border-radius: 12px;
+        
+}
+.resume-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+
+}
+
+
+@media  (min-width:300px) and  (max-width:650px) {
+
+     .home-div{
+        display: block;
+        flex-wrap: wrap;
+        /* flex-direction: row-reverse; */
+        /* border: 1px solid black; */
+        width: 100%;
+
+     }
+     .home-section{
+        width: 100%;
+        background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+        margin: 0px;
+        padding:0px;
+        margin-top: 20px;
+        border: 0.1px solid white;
+
+     }
+     .home-details{
+        width: auto;
+     }
+     .home-div>div{
+        height: auto;
+     } 
+    
+}

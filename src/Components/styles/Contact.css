@@ -1,0 +1,157 @@
+.contact-section{
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%); */
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+
+
+}
+
+.contact-inside{
+    /* border: 1px solid red; */
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%); */
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 100px;
+}
+.contact-section h1{
+
+    font-family: 'Chela One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* margin-top: 100px; */
+   
+}
+
+.contact-container{
+    /* border: 1px solid red; */
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+
+
+}
+.contact-container a{
+    text-decoration: none;
+    color: black;
+}
+.column-left{
+    /* border: 1px solid green; */
+    width: 40%;
+    padding: 10px;
+
+
+}
+.column-left>div{
+    margin: 20px;
+    font-size: 1.2rem;
+     display: flex;
+    
+}
+
+.column-right{
+    /* border: 1px solid green; */
+    width: 40%;
+    padding: 10px;
+  
+   
+
+
+}
+.text{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.fields{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+
+}
+.Subject>input{
+    width: 85%;
+}
+.txtarea{
+    padding: 10px;
+
+}
+.txtarea>textarea{
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 6px;
+    
+}
+.button-area{
+    width: 85%;
+}
+
+.button-area button{
+    padding: 10px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
+
+
+.footer{
+    width: 80%;
+    border-top: 2px solid grey;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    
+
+}
+
+@media  (min-width:300px) and (max-width:650px){
+    .contact-section{
+        width: 100%;
+        padding: 0%;
+
+    }
+    .footer{
+        width: 100%;
+        padding: 0%;
+
+    }
+    .contact-container{
+        display: block;
+
+    }
+    .column-right{
+        display: block;
+        width: inherit;
+        /* border: 1px solid green; */
+        margin:0%;
+        padding:0%;
+
+    }
+    .fields{
+        display: block;
+    }
+    .Subject>input{
+        /* width: 80%; */
+        width: inherit;
+    }
+    .column-left{
+        width: 100%;
+        padding: 0%;
+    }
+}

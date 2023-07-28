@@ -1,0 +1,109 @@
+.project-section{
+
+    /* border: 1px solid green; */
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    height: auto;
+    border-radius: 12px;
+
+
+}
+.project-section h1{
+
+    font-family: 'Chela One', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    /* margin-top: 100px; */
+}
+.project-main-div{
+     /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    font-size: 0.8rem;
+    
+
+}
+.projects-inside{
+/* border: 1px solid green; */
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 100px;
+    
+}
+
+.project-card{
+    /* border: 1px solid grey; */
+    border-radius: 12px;
+    height: auto;
+    margin: 10px;   
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    
+
+}
+
+.project-card:hover{
+
+    transform: scale(1.12);
+    transition:ease-out 0.5s;
+}
+
+
+.project-img{
+    /* border: 1px solid grey; */
+     margin: 20px;  
+     background-color: white;
+     border-radius: 12px;
+
+   
+}
+
+.project-img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.project-title{
+    margin: 20px;  
+
+}
+.project-description{
+    margin: 20px;  
+
+}
+.project-techstack{
+    margin: 20px;  
+
+}
+.project-description{
+    margin: 20px;  
+
+}
+.deployed{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media  (min-width:300px) and (max-width:650px){
+
+
+       .project-section{
+        width: 100%;
+        padding: 0%;
+       }
+        .project-main-div{
+            display: block;
+            
+        }
+}

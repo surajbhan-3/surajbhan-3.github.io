@@ -1,19 +1,32 @@
 
-.about-section{
+.about.section{
     /* border: 1px solid rebeccapurple; */
-     width: 75%;
+     width: 80%;
      margin: auto;
      padding: 10px;
      margin-top: 10px;
     min-height: 500px;
     max-height: auto;
-     
+    /* background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%); */
+ border-radius: 12px;
+ 
 
 }
-.about-section>h1{
+.about.section h1{
     font-family: 'Chela One', cursive;
     word-spacing: 5px;
     letter-spacing: 2px;
+    /* margin-top: 100px; */
+
+}
+.about-inside{
+    /* border: 1px solid red; */
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 100px;
+    padding-bottom: 120px;
+    
 }
 
 .aboutme-container{
@@ -23,5 +36,22 @@
     margin: auto;
     font-size: 1rem;
     margin-top: 50px;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
+    
 
+}
+
+@media  (min-width:300px) and  (max-width:650px) {
+
+     .about.section{
+        width: 100%;
+        
+        background: linear-gradient(109.6deg, rgb(78, 62, 255) 11.2%, rgb(164, 69, 255) 91.1%);
+        padding: 0px;
+
+
+     }
+     .about-inside{
+        margin-top: 20px;
+     }
 }
