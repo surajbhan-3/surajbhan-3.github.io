@@ -1,11 +1,11 @@
 import React from 'react'
 import "./styles/Home.css"
 import profilePicture from  "../assets/surajbhan.jpg"
-import Resume from "../assets/Suraj-Bhan-Singh-Resume.pdf"  
-
+import Resume from "../assets/Suraj-Bhan-Singh-Resume.pdf";
 import { FaGithub, FaLinkedinIn, FaTwitter, FaWhatsapp, FaQuora} from "react-icons/fa";
 import {HiMail} from "react-icons/hi"
 import {HiArrowDownCircle} from "react-icons/hi2";
+import { motion } from 'framer-motion';
 
 function openDrive() {
   window.open(
@@ -20,9 +20,9 @@ function Home() {
     <React.Fragment>
                   <section className='home-section' id='home'>
 
-                           <div className="home-div">
+                           <motion.div  className="home-div inside">
 
-                           <div className="home-imgee">
+                              <div className="home-imgee">
                                 <div>
                                 <img  src={profilePicture} className='home-img' alt="suraj-bhan-singh" />
                                 </div>
@@ -37,24 +37,24 @@ function Home() {
                                     </p>
 
                                    
-                                    <li  id='resume-button-2'><a id='resume-link-2' href={Resume} target="_blank" rel="noopener noreferrer" className='googleDrive resume-icon' onClick={openDrive} download="Suraj-Bhan-Singh-Resume"> <span>Resume </span><HiArrowDownCircle  size={30} /> </a></li>
+                                    <li  id='resume-button-2'><a id='resume-link-2' href={Resume} target="_blank" rel="noopener noreferrer" className='googleDrive resume-icon' onClick={openDrive} download="Suraj-Bhan-Singh-Resume"> <span>Resume </span><HiArrowDownCircle className='r-icon' size={30} /> </a></li>
 
 
                                    <h2>Connect with me :-</h2>
                                    <div className="social-media">
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><FaGithub size={30} />   </a> </button>
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={30}/></a> </button>
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><FaTwitter size={30}  /> </a> </button>
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><FaWhatsapp size={30} /> </a> </button>
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><FaQuora size={30}  />   </a> </button>
-                                         <button><a href="http://" target="_blank" rel="noopener noreferrer"><HiMail size={30}  />    </a></button>
+                                         <button><a href="https://github.com/surajbhan-3" target="_blank" rel="noopener noreferrer"><FaGithub  size={30} />   </a> </button>
+                                         <button><a href="https://www.linkedin.com/in/surajbhan-singh/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn color='blue' size={30}/></a> </button>
+                                         <button><a href="https://twitter.com/nobodyknws3" target="_blank" rel="noopener noreferrer"><FaTwitter color='darkturquoise' size={30}  /> </a> </button>
+                                         <button><a href="https://wa.me/8920213684" target="_blank" rel="noopener noreferrer"><FaWhatsapp color='limegreen' size={30} /> </a> </button>
+                                         <button><a href="https://www.quora.com/profile/Suraj-Bhan-Singh-24" target="_blank" rel="noopener noreferrer"><FaQuora color='brown' size={30}  />   </a> </button>
+                                         <button><a href="mailto:surajbhan2boaz@gmail.com" target="_blank" rel="noopener noreferrer"><HiMail color='orangered' size={30}  />    </a></button>
                                      
                                    </div>
                                   
                               </div>
                               
                                    
-                           </div>
+                           </motion.div>
 
                   </section>
                     

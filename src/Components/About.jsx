@@ -7,7 +7,7 @@ function About() {
            
            <div className="about section" id="about">
 
-             <div className="about-inside">
+             <div className="about-inside inside">
                     <h1>About me</h1>
                     <div className="aboutme-container">
                       <p id="user-detail-intro">

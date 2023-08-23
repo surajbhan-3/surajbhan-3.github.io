@@ -38,6 +38,7 @@
 
 
 
+
 }
 .contact-container a{
     text-decoration: none;
@@ -58,7 +59,6 @@
 }
 
 .column-right{
-    /* border: 1px solid green; */
     width: 40%;
     padding: 10px;
   
@@ -66,21 +66,15 @@
 
 
 }
-.text{
-    text-align: center;
-    font-size: 1.2rem;
-}
-.fields{
-    display: flex;
-    /* justify-content: space-between; */
-    
-}
+
+
 
 input{
-    border: 1px solid black;
+    /* border: 3px solid black; */
     border-radius: 6px;
     margin: 10px;
     padding: 10px;
+    border: none;
 
 }
 .Subject>input{
@@ -92,9 +86,10 @@ input{
 }
 .txtarea>textarea{
     width: 95%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 6px;
-    
+    border: none;
+    padding: 5px;
 }
 .button-area{
     width: 85%;
@@ -105,7 +100,9 @@ input{
     width: 100px;
     margin: 10px;
     border-radius: 6px;
+
 }
+
 
 
 
@@ -119,6 +116,10 @@ input{
     
 
 }
+.footer button{
+    visibility: hidden;
+}
+
 
 @media  (min-width:300px) and (max-width:650px){
     .contact-section{
@@ -154,4 +155,21 @@ input{
         width: 100%;
         padding: 0%;
     }
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+}
+.footer>div{
+    /* border: 1px solid black; */
+    width: 30%;
+    text-align: center;
+}
+
+.footer button{
+    border: none;
+    background-color: white;
 }

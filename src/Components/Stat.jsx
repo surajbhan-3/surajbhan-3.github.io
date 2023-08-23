@@ -20,7 +20,7 @@ function Stats() {
 
           <div className="stats-section" id="stats">
 
-            <div className="Stats-inside">
+            <div className="Stats-inside inside">
 
                       <h1>Stats  </h1>
                       <div className="stats-container">

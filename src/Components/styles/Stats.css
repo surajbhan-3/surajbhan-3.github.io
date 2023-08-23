@@ -8,9 +8,6 @@
     padding: 10px;
     margin-top: 10px;
     border-radius: 12px;
-    
-
-
 }
 
 .Stats-inside{
@@ -47,6 +44,13 @@
     font-weight: bold;
     border-radius: 12px;
 
+
+}
+.stats-container>.frontend:hover,.backend:hover,.dsa:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    transform:scale(1.2);
+    transition:ease-out 0.3s; 
 
 }
 .react-activity-calendar{

@@ -41,7 +41,8 @@ body{
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border: 2px solid #4a00e0;
 
 }
 
@@ -145,6 +146,7 @@ body{
     transform-origin: left;
     transition: transform 0.3s ease; 
 }
+
 #ho:hover::after,#ab:hover::after,#sk:hover::after,#co:hover::after,#pr:hover:after,#resume-link-1:hover:after,#st:hover:after{
 
     transform: scaleX(1);
@@ -154,18 +156,36 @@ body{
 }
 
 
+
 @media  (min-width:300px) and (max-width:650px){
     #burger-menu{
         display: block;
 
      }
      .ul-links{
-        display: none;
+        display: block;
+        padding: 0;
+        margin: 0;
+     }
+     .ul-links li{
+         padding: 10px;
+         margin-right: 10px;
      }
    
      .main-list{
         
         display: none;
+        position: absolute;
+        top: 100px;
+        left: 65vw;
+        border: 1px solid black;
+        border-radius: 12px;
+         padding: 10px;
+         padding-right: 20px;
+        /* background-color: pink; */
+        background-color: rgba(255, 192, 203, 0.5); 
+        overflow-x: hidden;
+
      }
 
        .dark-mode-btn{
@@ -213,5 +233,22 @@ body{
         margin-left: 25px;
         /* border: 1px solid green; */
        }
+
+       .main-list{
+        
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 45vw;
+        border: 1px solid black;
+        border-radius: 12px;
+         padding: 10px;
+         padding-right: 20px;
+        /* background-color: pink; */
+        background-color: rgba(255, 192, 203, 0.5); 
+        overflow-x: hidden;
+
+     }
+
 
 }

@@ -18,10 +18,40 @@ window.open(
 
 function Navbar() {
 
-    const handleDarkModeClick = () => {
+     const handleDarkModeClick = () => {
       let body = document.querySelector("body");
-      body.style.backgroundColor = "black";
-      body.style.color = "black";
+    //   let home = document.querySelector('.home-div')
+    //   let skill = document.querySelector(".skills-inside")
+    //   let about = document.querySelector(".about-inside")
+    //   let stat = document.querySelector(".Stats-inside")
+    //   let project = document.querySelector(".projects-inside")
+    //   let project_card = document.querySelectorAll(".project-card")
+    //   let contact =document.querySelector(".contact-inside")
+    //   let contact_container = document.querySelector("#c-c")
+      body.style.backgroundColor = body.style.backgroundColor === "black"? "white": "black" ;
+    //   home.style.background= home.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black"; 
+    //   home.style.color = home.style.color==="white" ? "black" : "white";
+    //   skill.style.background= skill.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black";
+    //   skill.style.color = skill.style.color==="white" ? "black" : "white";
+    //   about.style.background= about.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black";
+    //   about.style.color = about.style.color==="white" ? "black" : "white";
+    //   stat.style.background= stat.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black";
+    //   stat.style.color =  stat.style.color==="white" ? "black" : "white";
+    //   project.style.background= project.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black";
+    //   project.style.color = project.style.color==="white" ? "black" : "white";
+    //   contact.style.background= contact.style.background === "black" ? "radial-gradient(circle at 10% 20%,rgb(255, 229, 168) 0%,rgb(251, 174, 222) 100.7%)" : "black";
+    //   contact.style.color = contact.style.color==="white" ? "black" : "white";
+    //   contact_container = contact_container.style.color = "white" ? "black" : "white"
+    //   project_card.forEach(card=>{
+    //     project_card.style.color =project_card.style.color = "white" ? "black" : "white";
+      //  })
+     
+     }
+
+    const burgerMenu = ()=>{
+   let bm=document.querySelector(".main-list");
+     bm.style.display= bm.style.display=== "block" ? "none":"block";
+        
     }
   
   return (
@@ -35,7 +65,7 @@ function Navbar() {
 
                         <div id="main-list-div" className='main-list'>
                              <ul className='ul-links'>
-                                <li className='nav-link home'><a id='ho' href="#home" > <HiMiniHome size={20} /> <span>&nbsp;Home</span></a></li>
+                                <li className='nav-link home'><a id='ho' href="#home" > <HiMiniHome className='icons-info' size={20} /> <span>&nbsp;Home</span></a></li>
                                 <li className='nav-link about'><a id='ab' href="#about"> <HiMiniUser size={20}  /> <span>&nbsp;About</span></a></li>
                                 <li className='nav-link skills'><a id='sk' href="#skills"> <HiMiniCodeBracketSquare size={20} />  <span>&nbsp;Skills</span></a></li>
                                 <li className='nav-link stats'><a id='st' href="#stats"> <HiMiniBolt size={20} /> <span>&nbsp;Stats</span></a></li>
@@ -46,9 +76,9 @@ function Navbar() {
                              </ul>
 
                         </div>
-                       <div id='burger-menu'> <HiSquaresPlus /> </div>
+                       <div id='burger-menu' onClick={burgerMenu}> <HiSquaresPlus size={30}/> </div>
 
-                        <div className='dark-mode-btn' ><button id='dark-mode-btn' onClick={handleDarkModeClick}> <HiOutlineSun />  </button></div>
+                        <div className='dark-mode-btn' ><button onClick={handleDarkModeClick}  id='dark-mode-btn'> <HiOutlineSun />  </button></div>
 
                        
                </div>

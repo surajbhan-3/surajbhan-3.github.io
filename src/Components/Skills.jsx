@@ -2,7 +2,7 @@ import React from 'react'
 import "./styles/Skills.css";
 import { FaHtml5, FaCss3Alt, FaReact,FaAws } from "react-icons/fa";
 import {IoLogoJavascript,IoLogoNodejs} from "react-icons/io"
-import {SiMongodb, SiExpress, SiNetlify, SiSocketdotio, SiRedux} from "react-icons/si"
+import {SiMongodb, SiExpress, SiNetlify, SiSocketdotio, SiRedux, SiChartdotjs} from "react-icons/si"
 import {TbBrandMysql} from "react-icons/tb"
 
 
@@ -12,7 +12,7 @@ function Skills() {
     <React.Fragment>
 
           <div className="skills-section" id='skills'>
-                <div className="skills-inside">
+                <div className="skills-inside inside">
                       <h1>Skills</h1>
                       <div className="skills-card">
 
@@ -28,6 +28,7 @@ function Skills() {
                                    <div className="card10"><div className="innerCard10"><SiNetlify className='skills-card-img netlify' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;&nbsp;Netlify</strong></div></div>
                                    <div className="card11"><div className="innerCard11"><SiSocketdotio className='skills-card-img socket' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Socket.io</strong></div></div>
                                    <div className="card12"><div className="innerCard12"><SiRedux className='skills-card-img redux' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Socket.io</strong></div></div>
+                                   <div className="card13"><div className="innerCard13"><SiChartdotjs className='skills-card-img chartjs' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Chart.js</strong></div></div>
 
                       </div>
                     </div>   

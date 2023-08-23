@@ -24,9 +24,30 @@
     grid-template-rows: auto;
     gap: 10px;
     font-size: 0.8rem;
+    /* background-color: pink; */
     
 
 }
+
+
+.project-type{
+
+     display: flex;
+     margin-bottom: 30px;
+     
+}
+.project-type>div{
+     min-width: 5%;
+     border: 1px solid black;
+     text-align: center;
+     margin: 10px;
+     padding: 5px;
+     border-radius: 12px;
+     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
 .projects-inside{
 /* border: 1px solid green; */
     background: radial-gradient(circle at 10% 20%, rgb(255, 229, 168) 0%, rgb(251, 174, 222) 100.7%);
@@ -37,7 +58,7 @@
 }
 
 .project-card{
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
     border-radius: 12px;
     height: auto;
     margin: 10px;   
@@ -46,6 +67,7 @@
     margin-left: 10px;
     margin-right: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
 
     
 
@@ -63,6 +85,8 @@
      margin: 20px;  
      background-color: white;
      border-radius: 12px;
+     border: 1px solid grey;
+     height: 150px;
 
    
 }
@@ -94,6 +118,57 @@
     display: flex;
     justify-content: space-around;
 }
+.deployed .backend-project button{
+     border-radius: 12px;
+     padding: 10px;
+     border: none;
+     /* background-color: chartreuse; */
+    
+    
+}
+.deployed .backend-project button:hover{
+    font-size: 12px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 0.3s;
+    border-radius: 12px;
+       
+}
+
+.deployed .backend-project button:hover a{
+     color: white;
+     border-radius: 12px;
+}
+
+.deployed .frontend button{
+     padding: 10px;
+     border-radius: 12px;
+     border: none;
+}
+.deployed .frontend button:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 0.3s;
+    font-size: 12px;
+}
+
+.deployed .frontend button:hover a{
+
+     color: white;
+     border-radius: 12px;
+}
+
+.deployed a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#project-type1,#project-type2, #project-type3,#project-type4,#project-type5{
+    cursor: pointer;
+}
+#project-type1:hover,#project-type2:hover, #project-type3:hover,#project-type4:hover,#project-type5:hover{
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    transition: ease-out 10s;
+}
 
 @media  (min-width:300px) and (max-width:650px){
 
@@ -106,4 +181,11 @@
             display: block;
             
         }
+
+        .project-type>div{
+            display: none;
+       }
+       .project-card{
+        padding: 10px;
+       }
 }
