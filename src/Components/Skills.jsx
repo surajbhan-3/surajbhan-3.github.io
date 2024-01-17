@@ -27,7 +27,7 @@ function Skills() {
                                    <div className="card9"><div  className="innerCard9"><FaAws className='skills-card-img aws' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;&nbsp;&nbsp;&nbsp;AWS</strong></div></div>
                                    <div className="card10"><div className="innerCard10"><SiNetlify className='skills-card-img netlify' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;&nbsp;Netlify</strong></div></div>
                                    <div className="card11"><div className="innerCard11"><SiSocketdotio className='skills-card-img socket' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Socket.io</strong></div></div>
-                                   <div className="card12"><div className="innerCard12"><SiRedux className='skills-card-img redux' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Socket.io</strong></div></div>
+                                   <div className="card12"><div className="innerCard12"><SiRedux className='skills-card-img redux' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Redux</strong></div></div>
                                    <div className="card13"><div className="innerCard13"><SiChartdotjs className='skills-card-img chartjs' size={50}/> <br /> <strong className='skills-card-name'>&nbsp;Chart.js</strong></div></div>
 
                       </div>

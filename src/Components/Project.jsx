@@ -11,24 +11,26 @@ function Project() {
   };
 
   const projectData = [
+
     {
       id:1,
+      image:"https://github.com/surajbhan-3/shopinn/blob/main/frontend/src/assets/lp1.png?raw=true",
+      category: 'mern',
+      title: 'shopInn',
+      description: 'ShopInn is the e-commerce website which sells products online to customers.This is a major project with payment integration, redux, redux-persist, payment-integration.',
+      techStack: 'MongoDB, Express.js, React.js, Node.js, Redux, Redux-persist,Razorpay',
+      frontendLink: 'https://shopinn-red.vercel.app/',
+      backendLink: 'https://github.com/surajbhan-3/shopinn',
+    },
+    {
+      id:2,
       image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGdYtGUCXoFTIzebVNKyiCIcWUrqBKPPLQWCtp04YlDn7xUb737jBGB-2oGeXMnuCgBysYLHyJka0gUyFG26ZGWeg83loAyFhiyWaQfCEDYrNKUXz3e1Zw-Td5JPVKPgjAMoA6f6IiR7Mkw5scgNCvQ4yivChpaUkKPrA3bK-jal9WHKZ6TotPkxpx_pQ/s320/missminute.png",
       category: 'node',
       title: 'Miss Minutes',
       description: 'Miss Minutes is the ultimate productivity companion, empowering individuals and teams to unlock their full potential. With its powerful time tracking, insightful analytics, and intelligent activity monitoring.',
       techStack: 'MongoDB, Express.js, React.js, Node.js',
-      frontendLink: 'https://example-mern-project1.com',
-      backendLink: 'https://example-mern-project1-api.com',
-    },
-    { id:2,
-      image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinu2fJRI0Th3rBWTtMTNZ2PGQOmVHneKbd9hxcXH5sk0aPnDr8GCucNtWhC7GKDxxImKDsVMlQt8waQUAskiKCEfeEpOAY54LxXTM78zJBXvQBVHGW-Wkkv4HF31RXOhLKfzG7Y1IJ05vSDqpOFktX6DVNHvAsyKJiCNG033TnjrQINYDI2PpxYdQfR9c/s320/netflix-clone.png",
-      category: 'react',
-      title: 'Netflix-clone',
-      description: 'I have created a captivating landing page inspired by Netflix, The page dynamically fetches data from the TMdb Movies API, allowing for real-time updates and a dynamic user experience. Leveraging the fundamental concepts of React.js.',
-      techStack: 'React,React-icons,vercel',
-      frontendLink: 'https://netflix-clone-surajbhan.vercel.app/',
-      backendLink: 'https://example-mern-project1-api.com'
+      frontendLink: 'https://desk-time.netlify.app/',
+      backendLink: 'https://github.com/kuldeepkd13/DeskTimeClone-Miss-Minutes',
     },
     { 
       id:3,
@@ -60,6 +62,43 @@ function Project() {
       frontendLink: 'https://resplendent-dieffenbachia-5cbb43.netlify.app/',
       backendLink: 'https://github.com/8309h/eminent-trucks-727'
     },
+    { id:6,
+      image:"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinu2fJRI0Th3rBWTtMTNZ2PGQOmVHneKbd9hxcXH5sk0aPnDr8GCucNtWhC7GKDxxImKDsVMlQt8waQUAskiKCEfeEpOAY54LxXTM78zJBXvQBVHGW-Wkkv4HF31RXOhLKfzG7Y1IJ05vSDqpOFktX6DVNHvAsyKJiCNG033TnjrQINYDI2PpxYdQfR9c/s320/netflix-clone.png",
+      category: 'react',
+      title: 'Netflix-clone',
+      description: 'I have created a captivating landing page inspired by Netflix, The page dynamically fetches data from the TMdb Movies API, allowing for real-time updates and a dynamic user experience. Leveraging the fundamental concepts of React.js.',
+      techStack: 'React,React-icons,vercel',
+      frontendLink: 'https://netflix-clone-surajbhan.vercel.app/',
+      backendLink: 'https://github.com/surajbhan-3/netflix-clone'
+    },
+    { id:7,
+      image:"https://github.com/surajbhan-3/cowboy-e-bike/blob/main/src/assets/screenshot.png?raw=true",
+      category: 'react',
+      title: 'Cowboy-ebike',
+      description: 'Convert a figma Hero section design into live code using react',
+      techStack: 'React,React-icons,vercel',
+      frontendLink: 'https://cowboy-e-bike.vercel.app/',
+      backendLink: 'https://github.com/surajbhan-3/cowboy-e-bike'
+    },
+    { id:8,
+      image:"https://media.istockphoto.com/id/1256489977/vector/tasks-check-checklist-blue-icon.jpg?s=612x612&w=0&k=20&c=dUctYWRSmMz1uiSFCCcJUKOyeoxVbvPuLugf8CLQiSo=",
+      category: 'javascript',
+      title: 'Tod-list',
+      description: 'I have created a simple todo-list in js . user can add , delete , set pririority and see all the task',
+      techStack: 'React,React-icons,vercel',
+      frontendLink: 'https://code-soft-internship-2o62.vercel.app/',
+      backendLink: 'https://github.com/surajbhan-3/CodeSoftInternship/tree/main/todo_listt'
+    },
+
+    { id:9,
+      image:"https://miro.medium.com/v2/resize:fit:1400/1*yaZ-u-EiZ6kanJP9zPFXVQ.jpeg",
+      category: 'figma',
+      title: 'Trading card game',
+      description: 'I have created a figma design from scratch during a contest',
+      techStack: 'Figma',
+      frontendLink: 'https://www.figma.com/file/naCZmu8chzM2pQm8xsreDn/yu-gi-oh?type=design&node-id=0%3A1&mode=design&t=4tDzzNylv6Lhsuw0-1',
+      backendLink: 'https://www.figma.com/file/naCZmu8chzM2pQm8xsreDn/yu-gi-oh?type=design&node-id=0%3A1&mode=design&t=4tDzzNylv6Lhsuw0-1'
+    },
     
     // Add more project cards here as needed
   ];
@@ -80,6 +119,7 @@ function Project() {
                                      <div id='project-type3' className={displayCategory === 'react' ? 'active' : ''} onClick={() => handleCategoryClick('react')}>React</div>
                                      <div id='project-type4' className={displayCategory === 'node' ? 'active' : ''} onClick={() => handleCategoryClick('node')}>Node</div>
                                      <div id='project-type5' className={displayCategory === 'js' ? 'active' : ''} onClick={() => handleCategoryClick('js')}>JS</div>
+                                     <div id='project-type6' className={displayCategory === 'figma' ? 'active' : ''} onClick={() => handleCategoryClick('figma')}>Figma</div>
                                  </div>
                                       
                    
